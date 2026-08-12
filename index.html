@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>IA CENTINELL v6.0 — PROTECTION INTELLIGENCE PLATFORM</title>
+<title>IA CENTINELL v6.0 â€” PROTECTION INTELLIGENCE PLATFORM</title>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -249,14 +249,14 @@ select.inp{cursor:pointer;}
 #g-auditlog .inner{padding:0.3rem 1.3rem;height:100%;overflow-y:auto;font-family:var(--mono);font-size:0.5rem;color:var(--textdd);line-height:1.6;}
 #toggleAudit{position:fixed;bottom:0;left:222px;font-family:var(--mono);font-size:0.43rem;background:var(--border);color:var(--textd);border:none;cursor:pointer;padding:2px 8px;letter-spacing:0.1em;z-index:51;}
 
-/* ═══════ PAGE TRANSITIONS ═══════ */
+/* â•â•â•â•â•â•â• PAGE TRANSITIONS â•â•â•â•â•â•â• */
 .page{display:none;padding:1.1rem 1.4rem;animation:pageSlideIn 0.3s cubic-bezier(0.22,1,0.36,1);}
 .page.active{display:block;}
 .page.exit-anim{animation:pageSlideOut 0.15s ease forwards;}
 @keyframes pageSlideIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
 @keyframes pageSlideOut{to{opacity:0;transform:translateY(-6px);}}
 
-/* ═══════ NAVIGATION TILES (Google-style) ═══════ */
+/* â•â•â•â•â•â•â• NAVIGATION TILES (Google-style) â•â•â•â•â•â•â• */
 .nav-tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:0.7rem;margin-bottom:1rem;}
 .nav-tile{
   background:var(--panel);border:1px solid var(--border);
@@ -326,9 +326,9 @@ select.inp{cursor:pointer;}
 }
 .tiles-label::after{content:'';flex:1;height:1px;background:var(--border);}
 
-    /* ═══════ INFRASTRUCTURE PAGE STYLES v6.0 ═══════ */
+    /* â•â•â•â•â•â•â• INFRASTRUCTURE PAGE STYLES v6.0 â•â•â•â•â•â•â• */
 
-    /* Modo Lockdown — Alerta Crítica */
+    /* Modo Lockdown â€” Alerta CrÃ­tica */
     body.mode-lockdown {
         filter: sepia(0.3) saturate(1.3) hue-rotate(-15deg);
         animation: critical-pulse 1.5s infinite;
@@ -339,7 +339,7 @@ select.inp{cursor:pointer;}
         100% { box-shadow: inset 0 0 80px  rgba(184, 85, 85, 0);   }
     }
 
-    /* Gráficos de Barras Nativos */
+    /* GrÃ¡ficos de Barras Nativos */
     .bar-container {
         display: flex; align-items: flex-end; gap: 4px;
         height: 120px; padding: 15px; background: rgba(0,0,0,0.4);
@@ -423,7 +423,7 @@ body.mode-lockdown{filter:sepia(.3) saturate(1.2) hue-rotate(-10deg);animation:c
     <text x="35" y="41" text-anchor="middle" font-family="Orbitron" font-size="14" fill="#5a9fbf" font-weight="700">IA</text>
   </svg>
   <div class="sp-logo">IA CENTINELL</div>
-  <div class="sp-sub">INTELLIGENCE · PROTECTION · GOVERNANCE</div>
+  <div class="sp-sub">INTELLIGENCE Â· PROTECTION Â· GOVERNANCE</div>
   <div class="sp-ver">v6.0 // ENTERPRISE AI + ACTIVE PROTECTION ENGINE</div>
   <div class="sp-bar"><div class="sp-fill" id="spFill"></div></div>
   <div class="sp-log" id="spLog"></div>
@@ -436,8 +436,8 @@ body.mode-lockdown{filter:sepia(.3) saturate(1.2) hue-rotate(-10deg);animation:c
       <div class="sb-brand-sub">INTELLIGENCE + PROTECTION // v6.0</div>
     </div>
     <div class="sb-session">
-      <div class="sb-company" id="sbCompany">—</div>
-      <div class="sb-role" id="sbRole">CLEARANCE: —</div>
+      <div class="sb-company" id="sbCompany">â€”</div>
+      <div class="sb-role" id="sbRole">CLEARANCE: â€”</div>
     </div>
     <div class="sb-prot">
       <div class="sb-prot-dot" id="sbProtDot"></div>
@@ -489,7 +489,7 @@ body.mode-lockdown{filter:sepia(.3) saturate(1.2) hue-rotate(-10deg);animation:c
 
   <div id="main">
     <div id="topbar">
-      <div class="tb-page" id="tbPage">BRIDGE — COMMAND HQ</div>
+      <div class="tb-page" id="tbPage">BRIDGE â€” COMMAND HQ</div>
       <div class="tb-right">
         <div class="tb-m"><div class="tb-mv green" id="topProtected">100%</div><div class="tb-ml">PROTECTED</div></div>
         <div class="tb-m"><div class="tb-mv" id="topOps">0</div><div class="tb-ml">OPS</div></div>
@@ -497,18 +497,18 @@ body.mode-lockdown{filter:sepia(.3) saturate(1.2) hue-rotate(-10deg);animation:c
         <div class="tb-m"><div class="tb-mv red" id="topThreats">0</div><div class="tb-ml">THREATS</div></div>
         <div class="tb-m"><div class="tb-mv red" id="topQuarantined">0</div><div class="tb-ml">QUARANTINED</div></div>
         <div class="tb-clock" id="topClock">--:--:-- UTC</div>
-        <div class="tb-user" id="topUser">—</div>
+        <div class="tb-user" id="topUser">â€”</div>
       </div>
     </div>
     <div id="liveFeed">
-      <span><span class="feed-ok">▶</span> <span id="feedTxt">IA CENTINELL PROTECTION ENGINE ACTIVE</span></span>
+      <span><span class="feed-ok">â–¶</span> <span id="feedTxt">IA CENTINELL PROTECTION ENGINE ACTIVE</span></span>
     </div>
 
     <div id="content">
 
-      <!-- ═══════════════════════════ BRIDGE ═══════════════════════════ -->
+      <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• BRIDGE â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
       <div class="page active" id="page-bridge">
-        <div class="sec-hdr"><div class="sec-badge">BRIDGE</div><div class="sec-title">COMMAND HQ — PROTECTION + INTELLIGENCE OVERVIEW</div><div class="sec-line"></div></div>
+        <div class="sec-hdr"><div class="sec-badge">BRIDGE</div><div class="sec-title">COMMAND HQ â€” PROTECTION + INTELLIGENCE OVERVIEW</div><div class="sec-line"></div></div>
         <div class="row">
           <!-- PROTECTION STATUS -->
           <div class="col" style="max-width:210px;">
@@ -526,7 +526,7 @@ body.mode-lockdown{filter:sepia(.3) saturate(1.2) hue-rotate(-10deg);animation:c
                   <div class="shield-lbl" style="color:var(--green);">PROTECTION</div>
                 </div>
               </div>
-              <div class="prot-status protected" id="protStatusBadge">🛡 FULLY PROTECTED</div>
+              <div class="prot-status protected" id="protStatusBadge">ðŸ›¡ FULLY PROTECTED</div>
               <div style="margin-top:0.6rem;display:grid;gap:4px;">
                 <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:0.5rem;">
                   <span style="color:var(--textdd);">Threat Shield</span><span class="feed-ok">ACTIVE</span>
@@ -567,31 +567,31 @@ body.mode-lockdown{filter:sepia(.3) saturate(1.2) hue-rotate(-10deg);animation:c
           </div>
         </div>
 
-        <!-- ═══════ NAVIGATION TILES ═══════ -->
+        <!-- â•â•â•â•â•â•â• NAVIGATION TILES â•â•â•â•â•â•â• -->
         <div class="tiles-label">PROTECTION ENGINE</div>
         <div class="nav-tiles">
           <div class="nav-tile t-orange" onclick="tileNav('shield',this)">
-            <div class="nav-tile-icon">🔍</div>
+            <div class="nav-tile-icon">ðŸ”</div>
             <div class="nav-tile-title">THREAT SHIELD</div>
-            <div class="nav-tile-sub">File Scanner · Malware Detection · AI Behavioral Analysis</div>
+            <div class="nav-tile-sub">File Scanner Â· Malware Detection Â· AI Behavioral Analysis</div>
             <span class="nav-tile-badge tag tag-orange">SCAN</span>
           </div>
           <div class="nav-tile t-red" onclick="tileNav('netwatch',this)">
-            <div class="nav-tile-icon">📡</div>
+            <div class="nav-tile-icon">ðŸ“¡</div>
             <div class="nav-tile-title">NET SENTINEL</div>
-            <div class="nav-tile-sub">Network Monitor · Anomaly Detection · Firewall Rules</div>
+            <div class="nav-tile-sub">Network Monitor Â· Anomaly Detection Â· Firewall Rules</div>
             <span class="nav-tile-badge tag tag-red">LIVE</span>
           </div>
           <div class="nav-tile t-green" onclick="tileNav('guardian',this)">
-            <div class="nav-tile-icon">📁</div>
+            <div class="nav-tile-icon">ðŸ“</div>
             <div class="nav-tile-title">FILE GUARDIAN</div>
-            <div class="nav-tile-sub">Integrity Baseline · Change Detection · Behavior Watch</div>
+            <div class="nav-tile-sub">Integrity Baseline Â· Change Detection Â· Behavior Watch</div>
             <span class="nav-tile-badge tag tag-green">WATCH</span>
           </div>
           <div class="nav-tile t-red" onclick="tileNav('quarantine',this)">
-            <div class="nav-tile-icon">🔒</div>
+            <div class="nav-tile-icon">ðŸ”’</div>
             <div class="nav-tile-title">QUARANTINE</div>
-            <div class="nav-tile-sub">Isolated Threats · HITL Review · Remediation Guide</div>
+            <div class="nav-tile-sub">Isolated Threats Â· HITL Review Â· Remediation Guide</div>
             <span class="nav-tile-badge tag tag-red" id="qTileBadge">0</span>
           </div>
         </div>
@@ -599,27 +599,27 @@ body.mode-lockdown{filter:sepia(.3) saturate(1.2) hue-rotate(-10deg);animation:c
         <div class="tiles-label">IA-CORE MODULES</div>
         <div class="nav-tiles">
           <div class="nav-tile t-cyan" onclick="tileNav('c11',this)">
-            <div class="nav-tile-icon">🔐</div>
+            <div class="nav-tile-icon">ðŸ”</div>
             <div class="nav-tile-title">IA-CORE-1-1</div>
-            <div class="nav-tile-sub">SHA-256 Digital Audit · Hash Validator · Chain of Custody</div>
+            <div class="nav-tile-sub">SHA-256 Digital Audit Â· Hash Validator Â· Chain of Custody</div>
             <span class="nav-tile-badge tag tag-cyan">AUDIT</span>
           </div>
           <div class="nav-tile t-amber" onclick="tileNav('c12',this)">
-            <div class="nav-tile-icon">🔬</div>
+            <div class="nav-tile-icon">ðŸ”¬</div>
             <div class="nav-tile-title">IA-CORE-1-2</div>
-            <div class="nav-tile-sub">Forensic Scanner · Evidence Intake · Timeline Builder</div>
+            <div class="nav-tile-sub">Forensic Scanner Â· Evidence Intake Â· Timeline Builder</div>
             <span class="nav-tile-badge tag tag-amber">FORENSIC</span>
           </div>
           <div class="nav-tile t-cyan" onclick="tileNav('c13',this)">
-            <div class="nav-tile-icon">⚖️</div>
+            <div class="nav-tile-icon">âš–ï¸</div>
             <div class="nav-tile-title">IA-CORE-1-3</div>
-            <div class="nav-tile-sub">Ethics Governor · HITL Gate · Bias Detection · Compliance</div>
+            <div class="nav-tile-sub">Ethics Governor Â· HITL Gate Â· Bias Detection Â· Compliance</div>
             <span class="nav-tile-badge tag tag-cyan">ETHICS</span>
           </div>
           <div class="nav-tile t-red" onclick="tileNav('c14',this)">
-            <div class="nav-tile-icon">🎯</div>
+            <div class="nav-tile-icon">ðŸŽ¯</div>
             <div class="nav-tile-title">IA-CORE-1-4</div>
-            <div class="nav-tile-sub">Threat Attribution · MITRE ATT&CK · IR Plan Generator</div>
+            <div class="nav-tile-sub">Threat Attribution Â· MITRE ATT&CK Â· IR Plan Generator</div>
             <span class="nav-tile-badge tag tag-amber">THREAT</span>
           </div>
         </div>
@@ -627,33 +627,33 @@ body.mode-lockdown{filter:sepia(.3) saturate(1.2) hue-rotate(-10deg);animation:c
         <div class="tiles-label">INTELLIGENCE & PLATFORM</div>
         <div class="nav-tiles">
           <div class="nav-tile t-amber" onclick="tileNav('analyst',this)">
-            <div class="nav-tile-icon">🧠</div>
+            <div class="nav-tile-icon">ðŸ§ </div>
             <div class="nav-tile-title">AI ANALYST</div>
-            <div class="nav-tile-sub">Full Conversational AI · Multi-Mode · English & Spanish</div>
+            <div class="nav-tile-sub">Full Conversational AI Â· Multi-Mode Â· English & Spanish</div>
             <span class="nav-tile-badge tag tag-cyan">IA</span>
           </div>
           <div class="nav-tile t-amber" onclick="tileNav('algo',this)">
-            <div class="nav-tile-icon">⚡</div>
+            <div class="nav-tile-icon">âš¡</div>
             <div class="nav-tile-title">ALGO LAB</div>
-            <div class="nav-tile-sub">Elite Algorithm Solver · Code Optimizer · Complexity Debate</div>
+            <div class="nav-tile-sub">Elite Algorithm Solver Â· Code Optimizer Â· Complexity Debate</div>
             <span class="nav-tile-badge tag tag-amber">ELITE</span>
           </div>
           <div class="nav-tile t-green" onclick="tileNav('mission',this)">
-            <div class="nav-tile-icon">🎖️</div>
+            <div class="nav-tile-icon">ðŸŽ–ï¸</div>
             <div class="nav-tile-title">MISSION</div>
-            <div class="nav-tile-sub">Strategic Positioning · 5 Core Problems · Differentiation</div>
+            <div class="nav-tile-sub">Strategic Positioning Â· 5 Core Problems Â· Differentiation</div>
             <span class="nav-tile-badge tag tag-green">IA-1</span>
           </div>
           <div class="nav-tile t-purple" onclick="tileNav('arch',this)">
-            <div class="nav-tile-icon">🏗️</div>
+            <div class="nav-tile-icon">ðŸ—ï¸</div>
             <div class="nav-tile-title">ARCHITECTURE</div>
-            <div class="nav-tile-sub">Full Stack Roadmap · 3-Phase Blueprint · Tech Stack</div>
+            <div class="nav-tile-sub">Full Stack Roadmap Â· 3-Phase Blueprint Â· Tech Stack</div>
             <span class="nav-tile-badge tag tag-purple">STACK</span>
           </div>
           <div class="nav-tile t-red" onclick="tileNav('clients',this)" id="clientTile" style="display:none;">
-            <div class="nav-tile-icon">👥</div>
+            <div class="nav-tile-icon">ðŸ‘¥</div>
             <div class="nav-tile-title">CLIENT PANEL</div>
-            <div class="nav-tile-sub">Enterprise Account Management · Onboarding · Ops Tracking</div>
+            <div class="nav-tile-sub">Enterprise Account Management Â· Onboarding Â· Ops Tracking</div>
             <span class="nav-tile-badge tag tag-red">ADMIN</span>
           </div>
         </div>
@@ -662,43 +662,43 @@ body.mode-lockdown{filter:sepia(.3) saturate(1.2) hue-rotate(-10deg);animation:c
           <div class="card-title">CORE STATUS MATRIX</div>
           <table class="tbl">
             <tr><th>COMPONENT</th><th>FUNCTION</th><th>MODE</th><th>STATUS</th><th>OPS</th><th>LATENCY</th></tr>
-            <tr><td><span class="tag tag-orange">THREAT SHIELD</span></td><td>File Scan + Malware Detection</td><td>AI-Powered</td><td><span class="tag tag-green">ACTIVE</span></td><td id="shieldOps">0</td><td id="latS">—</td></tr>
-            <tr><td><span class="tag tag-red">NET SENTINEL</span></td><td>Network Traffic Monitor</td><td>Real-Time</td><td><span class="tag tag-green">ACTIVE</span></td><td id="netOps">0</td><td id="latN">—</td></tr>
-            <tr><td><span class="tag tag-green">FILE GUARDIAN</span></td><td>Integrity + Behavior Watch</td><td>Continuous</td><td><span class="tag tag-green">ACTIVE</span></td><td id="guardOps">0</td><td id="latG">—</td></tr>
-            <tr><td><span class="tag tag-cyan">IA-CORE-1-1</span></td><td>SHA-256 Audit Engine</td><td>On-Demand</td><td><span class="tag tag-green">ACTIVE</span></td><td id="c11ops">0</td><td id="lat11">—</td></tr>
-            <tr><td><span class="tag tag-cyan">IA-CORE-1-2</span></td><td>Forensic Scanner</td><td>On-Demand</td><td><span class="tag tag-green">ACTIVE</span></td><td id="c12ops">0</td><td id="lat12">—</td></tr>
-            <tr><td><span class="tag tag-cyan">IA-CORE-1-3</span></td><td>Ethics Governor (HITL)</td><td>Governed</td><td><span class="tag tag-green">ACTIVE</span></td><td id="c13ops">0</td><td id="lat13">—</td></tr>
-            <tr><td><span class="tag tag-cyan">IA-CORE-1-4</span></td><td>Threat Attribution</td><td>On-Demand</td><td><span class="tag tag-green">ACTIVE</span></td><td id="c14ops">0</td><td id="lat14">—</td></tr>
+            <tr><td><span class="tag tag-orange">THREAT SHIELD</span></td><td>File Scan + Malware Detection</td><td>AI-Powered</td><td><span class="tag tag-green">ACTIVE</span></td><td id="shieldOps">0</td><td id="latS">â€”</td></tr>
+            <tr><td><span class="tag tag-red">NET SENTINEL</span></td><td>Network Traffic Monitor</td><td>Real-Time</td><td><span class="tag tag-green">ACTIVE</span></td><td id="netOps">0</td><td id="latN">â€”</td></tr>
+            <tr><td><span class="tag tag-green">FILE GUARDIAN</span></td><td>Integrity + Behavior Watch</td><td>Continuous</td><td><span class="tag tag-green">ACTIVE</span></td><td id="guardOps">0</td><td id="latG">â€”</td></tr>
+            <tr><td><span class="tag tag-cyan">IA-CORE-1-1</span></td><td>SHA-256 Audit Engine</td><td>On-Demand</td><td><span class="tag tag-green">ACTIVE</span></td><td id="c11ops">0</td><td id="lat11">â€”</td></tr>
+            <tr><td><span class="tag tag-cyan">IA-CORE-1-2</span></td><td>Forensic Scanner</td><td>On-Demand</td><td><span class="tag tag-green">ACTIVE</span></td><td id="c12ops">0</td><td id="lat12">â€”</td></tr>
+            <tr><td><span class="tag tag-cyan">IA-CORE-1-3</span></td><td>Ethics Governor (HITL)</td><td>Governed</td><td><span class="tag tag-green">ACTIVE</span></td><td id="c13ops">0</td><td id="lat13">â€”</td></tr>
+            <tr><td><span class="tag tag-cyan">IA-CORE-1-4</span></td><td>Threat Attribution</td><td>On-Demand</td><td><span class="tag tag-green">ACTIVE</span></td><td id="c14ops">0</td><td id="lat14">â€”</td></tr>
           </table>
         </div>
       </div>
 
-      <!-- ═══════════════════════ THREAT SHIELD ═══════════════════════ -->
+      <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• THREAT SHIELD â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
       <div class="page" id="page-shield">
-        <div class="sec-hdr"><div class="sec-badge orange">THREAT SHIELD</div><div class="sec-title">ACTIVE PROTECTION ENGINE — MALWARE DETECTION & FILE SCANNER</div><div class="sec-line"></div></div>
+        <div class="sec-hdr"><div class="sec-badge orange">THREAT SHIELD</div><div class="sec-title">ACTIVE PROTECTION ENGINE â€” MALWARE DETECTION & FILE SCANNER</div><div class="sec-line"></div></div>
         <div class="row">
           <div class="col">
             <div class="card orange-top">
               <div class="card-title">FILE SCANNER</div>
-              <div class="card-sub">DRAG & DROP — SHA-256 + AI MALWARE ANALYSIS</div>
+              <div class="card-sub">DRAG & DROP â€” SHA-256 + AI MALWARE ANALYSIS</div>
               <div id="dropZone" style="border:2px dashed var(--orange);padding:1.5rem;text-align:center;cursor:pointer;margin-bottom:0.7rem;transition:all 0.2s;" onclick="document.getElementById('scanFile').click()" ondragover="event.preventDefault();this.style.borderColor='var(--cyan)'" ondragleave="this.style.borderColor='var(--orange)'" ondrop="handleScanDrop(event)">
-                <div style="font-size:2rem;margin-bottom:0.4rem;">🔍</div>
+                <div style="font-size:2rem;margin-bottom:0.4rem;">ðŸ”</div>
                 <div style="font-family:var(--orb);font-size:0.62rem;color:var(--orange);letter-spacing:0.1em;">DROP FILE TO SCAN</div>
-                <div style="font-family:var(--mono);font-size:0.5rem;color:var(--textdd);margin-top:0.3rem;">Any file type — AI-powered malware analysis</div>
+                <div style="font-family:var(--mono);font-size:0.5rem;color:var(--textdd);margin-top:0.3rem;">Any file type â€” AI-powered malware analysis</div>
               </div>
               <input type="file" id="scanFile" style="display:none;" onchange="scanFileInput(this)"/>
               <div id="scanResult" style="display:none;">
                 <div class="card" style="margin-bottom:0.5rem;background:#020c1b;border:1px solid var(--border);">
                   <div style="display:flex;align-items:center;gap:0.7rem;margin-bottom:0.6rem;">
-                    <div style="font-size:1.5rem;" id="scanIcon">🔍</div>
+                    <div style="font-size:1.5rem;" id="scanIcon">ðŸ”</div>
                     <div>
-                      <div style="font-family:var(--raj);font-size:0.85rem;font-weight:700;color:var(--text);" id="scanFileName">—</div>
-                      <div style="font-family:var(--mono);font-size:0.5rem;color:var(--textdd);" id="scanFileMeta">—</div>
+                      <div style="font-family:var(--raj);font-size:0.85rem;font-weight:700;color:var(--text);" id="scanFileName">â€”</div>
+                      <div style="font-family:var(--mono);font-size:0.5rem;color:var(--textdd);" id="scanFileMeta">â€”</div>
                     </div>
-                    <div class="tag" id="scanVerdict" style="margin-left:auto;font-size:0.5rem;">—</div>
+                    <div class="tag" id="scanVerdict" style="margin-left:auto;font-size:0.5rem;">â€”</div>
                   </div>
                   <div style="font-family:var(--mono);font-size:0.52rem;color:var(--textdd);margin-bottom:2px;">SHA-256</div>
-                  <div style="font-family:var(--mono);font-size:0.58rem;color:var(--green);word-break:break-all;" id="scanHash">—</div>
+                  <div style="font-family:var(--mono);font-size:0.58rem;color:var(--green);word-break:break-all;" id="scanHash">â€”</div>
                 </div>
               </div>
               <div class="output scrollable" id="scanAnalysis" style="height:180px;">THREAT SHIELD READY. DROP A FILE FOR AI-POWERED MALWARE ANALYSIS.</div>
@@ -712,14 +712,14 @@ body.mode-lockdown{filter:sepia(.3) saturate(1.2) hue-rotate(-10deg);animation:c
                 <button class="btn btn-red" onclick="checkSig()">CHECK</button>
               </div>
               <div class="output" id="sigOut" style="margin-top:0.4rem;">PASTE A HASH TO CHECK AGAINST THREAT SIGNATURES.</div>
-              <div style="margin-top:0.5rem;font-family:var(--mono);font-size:0.47rem;color:var(--textdd);">KNOWN SIGNATURES LOADED: <span style="color:var(--orange);" id="sigCount">247</span> | LAST UPDATE: <span style="color:var(--cyan2);" id="sigLastUpdate">—</span></div>
+              <div style="margin-top:0.5rem;font-family:var(--mono);font-size:0.47rem;color:var(--textdd);">KNOWN SIGNATURES LOADED: <span style="color:var(--orange);" id="sigCount">247</span> | LAST UPDATE: <span style="color:var(--cyan2);" id="sigLastUpdate">â€”</span></div>
             </div>
           </div>
 
           <div class="col">
             <div class="card amber-top">
               <div class="card-title">BEHAVIORAL THREAT ANALYZER</div>
-              <div class="card-sub">DESCRIBE PROCESS/ACTIVITY — AI DETECTS MALICIOUS PATTERNS</div>
+              <div class="card-sub">DESCRIBE PROCESS/ACTIVITY â€” AI DETECTS MALICIOUS PATTERNS</div>
               <textarea class="inp" id="behaviorInput" style="height:80px;">Process: svchost.exe spawned cmd.exe which ran powershell -enc [base64] and connected to 185.220.101.47:443. Registry modified: HKLM\Software\Microsoft\Windows\CurrentVersion\Run. Outbound data: 450MB to unknown IP.</textarea>
               <div class="inp-row">
                 <select class="inp" id="behaviorType" style="max-width:185px;margin-bottom:0;"><option>MALWARE BEHAVIOR</option><option>RANSOMWARE PATTERN</option><option>APT LATERAL MOVEMENT</option><option>DATA EXFILTRATION</option><option>PERSISTENCE MECHANISM</option><option>PRIVILEGE ESCALATION</option></select>
@@ -741,9 +741,9 @@ body.mode-lockdown{filter:sepia(.3) saturate(1.2) hue-rotate(-10deg);animation:c
         </div>
       </div>
 
-      <!-- ═══════════════════════ NET SENTINEL ════════════════════════ -->
+      <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• NET SENTINEL â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
       <div class="page" id="page-netwatch">
-        <div class="sec-hdr"><div class="sec-badge red">NET SENTINEL</div><div class="sec-title">NETWORK TRAFFIC MONITOR — REAL-TIME ANOMALY DETECTION</div><div class="sec-line"></div></div>
+        <div class="sec-hdr"><div class="sec-badge red">NET SENTINEL</div><div class="sec-title">NETWORK TRAFFIC MONITOR â€” REAL-TIME ANOMALY DETECTION</div><div class="sec-line"></div></div>
         <div class="row">
           <div class="col" style="max-width:340px;">
             <div class="card red-top">
@@ -768,7 +768,7 @@ body.mode-lockdown{filter:sepia(.3) saturate(1.2) hue-rotate(-10deg);animation:c
           <div class="col">
             <div class="card red-top">
               <div class="card-title">ANOMALY DETECTION ENGINE</div>
-              <div class="card-sub">DESCRIBE NETWORK ACTIVITY — AI DETECTS THREATS</div>
+              <div class="card-sub">DESCRIBE NETWORK ACTIVITY â€” AI DETECTS THREATS</div>
               <textarea class="inp" id="netInput" style="height:75px;">Network log: 2025-05-09 03:47 - Host 192.168.1.105 initiated 847 connection attempts to 192.168.1.1-254:22 in 30 seconds. Followed by successful connection to 203.0.113.42:4444. DNS queries to *.onion domains detected.</textarea>
               <div class="inp-row">
                 <select class="inp" id="netMode" style="max-width:190px;margin-bottom:0;"><option>ANOMALY DETECTION</option><option>PORT SCAN DETECTION</option><option>C2 TRAFFIC ANALYSIS</option><option>DNS EXFILTRATION</option><option>LATERAL MOVEMENT</option><option>MARITIME NETWORK AUDIT</option></select>
@@ -778,7 +778,7 @@ body.mode-lockdown{filter:sepia(.3) saturate(1.2) hue-rotate(-10deg);animation:c
             </div>
             <div class="card amber-top">
               <div class="card-title">FIREWALL RULE GENERATOR</div>
-              <div class="card-sub">DESCRIBE THREAT — AI GENERATES FIREWALL RULES</div>
+              <div class="card-sub">DESCRIBE THREAT â€” AI GENERATES FIREWALL RULES</div>
               <textarea class="inp" id="fwInput" style="height:50px;">Block all outbound traffic to Tor exit nodes. Allow only ports 80, 443, 22 outbound. Block known C2 IP ranges. Log all denied connections.</textarea>
               <div class="inp-row">
                 <select class="inp" id="fwType" style="max-width:165px;margin-bottom:0;"><option>iptables (Linux)</option><option>Windows Firewall</option><option>Cisco ASA</option><option>Palo Alto</option><option>Generic Rules</option></select>
@@ -790,17 +790,17 @@ body.mode-lockdown{filter:sepia(.3) saturate(1.2) hue-rotate(-10deg);animation:c
         </div>
       </div>
 
-      <!-- ═══════════════════════ FILE GUARDIAN ════════════════════════ -->
+      <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• FILE GUARDIAN â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
       <div class="page" id="page-guardian">
-        <div class="sec-hdr"><div class="sec-badge green">FILE GUARDIAN</div><div class="sec-title">FILE INTEGRITY MONITOR — BEHAVIORAL WATCH — CHANGE DETECTION</div><div class="sec-line"></div></div>
+        <div class="sec-hdr"><div class="sec-badge green">FILE GUARDIAN</div><div class="sec-title">FILE INTEGRITY MONITOR â€” BEHAVIORAL WATCH â€” CHANGE DETECTION</div><div class="sec-line"></div></div>
         <div class="row">
           <div class="col">
             <div class="card green-top">
               <div class="card-title">FILE INTEGRITY BASELINE</div>
-              <div class="card-sub">HASH FILES — CREATE INTEGRITY BASELINE — DETECT CHANGES</div>
+              <div class="card-sub">HASH FILES â€” CREATE INTEGRITY BASELINE â€” DETECT CHANGES</div>
               <div style="border:1px dashed var(--green2);padding:1.2rem;text-align:center;cursor:pointer;margin-bottom:0.6rem;" onclick="document.getElementById('baselineFile').click()">
-                <div style="font-size:1.8rem;margin-bottom:0.3rem;">📁</div>
-                <div style="font-family:var(--mono);font-size:0.55rem;color:var(--green2);">DROP FILE — ADD TO INTEGRITY BASELINE</div>
+                <div style="font-size:1.8rem;margin-bottom:0.3rem;">ðŸ“</div>
+                <div style="font-family:var(--mono);font-size:0.55rem;color:var(--green2);">DROP FILE â€” ADD TO INTEGRITY BASELINE</div>
               </div>
               <input type="file" id="baselineFile" style="display:none;" onchange="addToBaseline(this)" multiple/>
               <div id="baselineList" style="max-height:200px;overflow-y:auto;"></div>
@@ -814,7 +814,7 @@ body.mode-lockdown{filter:sepia(.3) saturate(1.2) hue-rotate(-10deg);animation:c
             <div class="card amber-top">
               <div class="card-title">CHANGE LOG</div>
               <div class="card-sub">INTEGRITY VIOLATIONS & MODIFICATIONS</div>
-              <div class="output scrollable" id="changeLog" style="height:130px;">NO CHANGES DETECTED — BASELINE STABLE.</div>
+              <div class="output scrollable" id="changeLog" style="height:130px;">NO CHANGES DETECTED â€” BASELINE STABLE.</div>
             </div>
           </div>
           <div class="col">
@@ -837,7 +837,7 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
 
             <div class="card cyan-top">
               <div class="card-title">SYSTEM INTEGRITY CHECKER</div>
-              <div class="card-sub">DESCRIBE SYSTEM STATE — DETECT ROOTKITS, TAMPERING</div>
+              <div class="card-sub">DESCRIBE SYSTEM STATE â€” DETECT ROOTKITS, TAMPERING</div>
               <textarea class="inp" id="sysIntInput" style="height:48px;">Windows system32 folder: 4 files modified in the last hour. Boot sector checksum mismatch. 2 new hidden services registered. Scheduled tasks created by SYSTEM account at 3AM.</textarea>
               <div class="inp-row">
                 <button class="btn btn-cyan" id="sysIntBtn" onclick="runSysInt()">CHECK INTEGRITY</button>
@@ -848,9 +848,9 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
         </div>
       </div>
 
-      <!-- ═══════════════════════ QUARANTINE ════════════════════════ -->
+      <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• QUARANTINE â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
       <div class="page" id="page-quarantine">
-        <div class="sec-hdr"><div class="sec-badge red">QUARANTINE</div><div class="sec-title">ISOLATED THREATS — REVIEW & ACTION CENTER</div><div class="sec-line"></div></div>
+        <div class="sec-hdr"><div class="sec-badge red">QUARANTINE</div><div class="sec-title">ISOLATED THREATS â€” REVIEW & ACTION CENTER</div><div class="sec-line"></div></div>
         <div class="metrics-grid" style="grid-template-columns:repeat(4,1fr);">
           <div class="mcard"><div class="mcard-val red" id="qTotal">0</div><div class="mcard-lbl">QUARANTINED</div></div>
           <div class="mcard"><div class="mcard-val orange" id="qHigh">0</div><div class="mcard-lbl">HIGH RISK</div></div>
@@ -861,7 +861,7 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
           <div class="col">
             <div class="card red-top">
               <div class="card-title">QUARANTINE VAULT</div>
-              <div class="card-sub">ISOLATED THREATS — HUMAN REVIEW REQUIRED (HITL)</div>
+              <div class="card-sub">ISOLATED THREATS â€” HUMAN REVIEW REQUIRED (HITL)</div>
               <div id="quarantineList"><div style="font-family:var(--mono);font-size:0.55rem;color:var(--textdd);padding:0.5rem;">NO ITEMS IN QUARANTINE</div></div>
             </div>
           </div>
@@ -891,9 +891,9 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
         </div>
       </div>
 
-      <!-- ════════════════════ IA-CORE-1-1 AUDIT ════════════════════ -->
+      <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• IA-CORE-1-1 AUDIT â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
       <div class="page" id="page-c11">
-        <div class="sec-hdr"><div class="sec-badge">IA-CORE-1-1</div><div class="sec-title">DIGITAL AUDIT ENGINE — SHA-256 CHAIN VALIDATOR</div><div class="sec-line"></div></div>
+        <div class="sec-hdr"><div class="sec-badge">IA-CORE-1-1</div><div class="sec-title">DIGITAL AUDIT ENGINE â€” SHA-256 CHAIN VALIDATOR</div><div class="sec-line"></div></div>
         <div class="row">
           <div class="col">
             <div class="card cyan-top">
@@ -904,11 +904,11 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
                 <select class="inp" id="h11algo" style="max-width:110px;margin-bottom:0;"><option>SHA-256</option><option>SHA-512</option></select>
                 <button class="btn btn-cyan" onclick="runHash11()">GENERATE</button>
               </div>
-              <div class="chain-step"><div class="chain-icon">TS</div><div class="col"><div class="chain-lbl">TIMESTAMP</div><div class="chain-val" id="h11ts">—</div></div></div>
-              <div class="chain-step"><div class="chain-icon">PL</div><div class="col"><div class="chain-lbl">SIGNED PAYLOAD</div><div class="chain-val" id="h11pl">—</div></div></div>
-              <div class="chain-step"><div class="chain-icon">HX</div><div class="col"><div class="chain-lbl">OUTPUT HASH</div><div class="chain-val" id="h11hash" style="color:var(--green);">—</div></div></div>
+              <div class="chain-step"><div class="chain-icon">TS</div><div class="col"><div class="chain-lbl">TIMESTAMP</div><div class="chain-val" id="h11ts">â€”</div></div></div>
+              <div class="chain-step"><div class="chain-icon">PL</div><div class="col"><div class="chain-lbl">SIGNED PAYLOAD</div><div class="chain-val" id="h11pl">â€”</div></div></div>
+              <div class="chain-step"><div class="chain-icon">HX</div><div class="col"><div class="chain-lbl">OUTPUT HASH</div><div class="chain-val" id="h11hash" style="color:var(--green);">â€”</div></div></div>
               <div class="inp-row" style="margin-top:0.4rem;">
-                <button class="btn btn-ghost" onclick="navigator.clipboard.writeText(document.getElementById('h11hash').textContent).catch(()=>log('CLIPBOARD UNAVAILABLE — COPY MANUALLY','err'))" style="font-size:0.48rem;">COPY</button>
+                <button class="btn btn-ghost" onclick="navigator.clipboard.writeText(document.getElementById('h11hash').textContent).catch(()=>log('CLIPBOARD UNAVAILABLE â€” COPY MANUALLY','err'))" style="font-size:0.48rem;">COPY</button>
                 <button class="btn btn-amber" onclick="aiAuditAnalyze()" style="margin-left:auto;">IA ANALYZE</button>
               </div>
             </div>
@@ -932,11 +932,11 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
             <div class="card cyan-top">
               <div class="card-title">FILE INTEGRITY</div>
               <div style="border:1px dashed var(--border2);padding:1rem;text-align:center;cursor:pointer;margin-bottom:0.5rem;" onclick="document.getElementById('file11').click()">
-                <div style="font-family:var(--mono);font-size:0.52rem;color:var(--textdd);">DROP OR CLICK — COMPUTE SHA-256</div>
+                <div style="font-family:var(--mono);font-size:0.52rem;color:var(--textdd);">DROP OR CLICK â€” COMPUTE SHA-256</div>
               </div>
               <input type="file" id="file11" style="display:none;" onchange="hashFile(this,'fh11','fi11')"/>
               <div class="output" id="fi11" style="font-size:0.5rem;">NO FILE</div>
-              <div class="output" id="fh11" style="margin-top:4px;color:var(--green);font-size:0.55rem;">HASH: —</div>
+              <div class="output" id="fh11" style="margin-top:4px;color:var(--green);font-size:0.55rem;">HASH: â€”</div>
             </div>
             <div class="card cyan-top">
               <div class="card-title">OPERATION HISTORY</div>
@@ -946,9 +946,9 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
         </div>
       </div>
 
-      <!-- ════════════════════ IA-CORE-1-2 FORENSIC ════════════════════ -->
+      <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• IA-CORE-1-2 FORENSIC â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
       <div class="page" id="page-c12">
-        <div class="sec-hdr"><div class="sec-badge amber">IA-CORE-1-2</div><div class="sec-title">FORENSIC INTEGRITY SCANNER — EVIDENCE CHAIN OF CUSTODY</div><div class="sec-line"></div></div>
+        <div class="sec-hdr"><div class="sec-badge amber">IA-CORE-1-2</div><div class="sec-title">FORENSIC INTEGRITY SCANNER â€” EVIDENCE CHAIN OF CUSTODY</div><div class="sec-line"></div></div>
         <div class="row">
           <div class="col">
             <div class="card amber-top">
@@ -987,9 +987,9 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
         </div>
       </div>
 
-      <!-- ════════════════════ IA-CORE-1-3 ETHICS ════════════════════ -->
+      <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• IA-CORE-1-3 ETHICS â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
       <div class="page" id="page-c13">
-        <div class="sec-hdr"><div class="sec-badge">IA-CORE-1-3</div><div class="sec-title">ETHICAL AI GOVERNOR — HITL ENFORCEMENT & COMPLIANCE</div><div class="sec-line"></div></div>
+        <div class="sec-hdr"><div class="sec-badge">IA-CORE-1-3</div><div class="sec-title">ETHICAL AI GOVERNOR â€” HITL ENFORCEMENT & COMPLIANCE</div><div class="sec-line"></div></div>
         <div class="row">
           <div class="col">
             <div class="card cyan-top">
@@ -1012,7 +1012,7 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
           <div class="col">
             <div class="card amber-top">
               <div class="card-title">HITL DECISION GATE</div>
-              <div class="card-sub">HUMAN APPROVAL REQUIRED — OPERATOR SIGN-OFF</div>
+              <div class="card-sub">HUMAN APPROVAL REQUIRED â€” OPERATOR SIGN-OFF</div>
               <div style="display:flex;gap:0.5rem;margin-bottom:0.6rem;">
                 <div class="mcard" style="flex:1;"><div class="mcard-val amber" id="hitlPending">0</div><div class="mcard-lbl">PENDING</div></div>
                 <div class="mcard" style="flex:1;"><div class="mcard-val green" id="hitlApproved">0</div><div class="mcard-lbl">APPROVED</div></div>
@@ -1041,9 +1041,9 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
         </div>
       </div>
 
-      <!-- ════════════════════ IA-CORE-1-4 THREAT ════════════════════ -->
+      <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• IA-CORE-1-4 THREAT â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
       <div class="page" id="page-c14">
-        <div class="sec-hdr"><div class="sec-badge red">IA-CORE-1-4</div><div class="sec-title">THREAT ATTRIBUTION MODULE — BEHAVIORAL FINGERPRINT ENGINE</div><div class="sec-line"></div></div>
+        <div class="sec-hdr"><div class="sec-badge red">IA-CORE-1-4</div><div class="sec-title">THREAT ATTRIBUTION MODULE â€” BEHAVIORAL FINGERPRINT ENGINE</div><div class="sec-line"></div></div>
         <div class="row">
           <div class="col">
             <div class="card red-top">
@@ -1085,7 +1085,7 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
         </div>
       </div>
 
-      <!-- ════════════════════ AI ANALYST ════════════════════ -->
+      <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• AI ANALYST â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
       <div class="page" id="page-analyst">
         <div class="sec-hdr"><div class="sec-badge amber">AI ANALYST</div><div class="sec-title">IA CENTINELL INTELLIGENCE INTERFACE</div><div class="sec-line"></div></div>
         <div class="row">
@@ -1093,7 +1093,7 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
             <div class="card cyan-top">
               <div class="card-title">ANALYST MODE</div>
               <select class="inp" id="analystMode"><option>GENERAL CYBER INTELLIGENCE</option><option>MARITIME SECURITY ANALYST</option><option>FORENSIC INVESTIGATOR</option><option>THREAT HUNTER</option><option>COMPLIANCE OFFICER</option><option>INCIDENT RESPONDER</option><option>ANTIVIRUS SPECIALIST</option><option>MALWARE ANALYST</option></select>
-              <select class="inp" id="analystLang"><option value="en">ENGLISH</option><option value="es">ESPAÑOL</option></select>
+              <select class="inp" id="analystLang"><option value="en">ENGLISH</option><option value="es">ESPAÃ‘OL</option></select>
               <div style="font-family:var(--mono);font-size:0.46rem;color:var(--textdd);margin-bottom:0.3rem;">QUICK QUERIES</div>
               <button class="btn btn-ghost" onclick="quickAsk('What are the top maritime cybersecurity threats for 2025?')" style="width:100%;text-align:left;font-size:0.48rem;margin-bottom:3px;">Maritime threats 2025</button>
               <button class="btn btn-ghost" onclick="quickAsk('How to detect and remove rootkits from a compromised system?')" style="width:100%;text-align:left;font-size:0.48rem;margin-bottom:3px;">Rootkit detection</button>
@@ -1115,7 +1115,7 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
         </div>
       </div>
 
-      <!-- ════════════════════ ALGO LAB ════════════════════ -->
+      <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• ALGO LAB â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
       <div class="page" id="page-algo">
         <div class="sec-hdr"><div class="sec-badge amber">ALGO LAB</div><div class="sec-title">ELITE ALGORITHMIC PROBLEM SOLVER</div><div class="sec-line"></div></div>
         <div class="row">
@@ -1139,7 +1139,7 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
               <div class="card-title">PROBLEM INPUT</div>
               <textarea class="inp mono" id="algoInput" style="height:90px;" placeholder="Describe algorithmic challenge...">Design an algorithm for a maritime vessel network that finds the most resilient routing path minimizing latency AND single-point-of-failure risk, with real-time threat updates to edge weights.</textarea>
               <div class="inp-row">
-                <button class="btn btn-amber" id="algoBtn" onclick="runAlgo()" style="flex:1;">SOLVE — FULL ANALYSIS</button>
+                <button class="btn btn-amber" id="algoBtn" onclick="runAlgo()" style="flex:1;">SOLVE â€” FULL ANALYSIS</button>
                 <button class="btn btn-ghost" onclick="document.getElementById('algoInput').value='';document.getElementById('algoOut').textContent='READY.';" style="font-size:0.48rem;">CLEAR</button>
               </div>
             </div>
@@ -1147,9 +1147,9 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
               <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.4rem;">
                 <div class="card-title" style="margin-bottom:0;flex:1;">SOLUTION OUTPUT</div>
                 <span class="tag tag-amber" id="algoComplexity" style="font-size:0.43rem;"></span>
-                <button class="btn btn-ghost" onclick="navigator.clipboard.writeText(document.getElementById('algoOut').textContent).catch(()=>log('CLIPBOARD UNAVAILABLE — COPY MANUALLY','err'))" style="font-size:0.42rem;padding:2px 5px;">COPY</button>
+                <button class="btn btn-ghost" onclick="navigator.clipboard.writeText(document.getElementById('algoOut').textContent).catch(()=>log('CLIPBOARD UNAVAILABLE â€” COPY MANUALLY','err'))" style="font-size:0.42rem;padding:2px 5px;">COPY</button>
               </div>
-              <div class="output scrollable" id="algoOut" style="height:310px;">ALGO LAB ONLINE — SUBMIT A PROBLEM.</div>
+              <div class="output scrollable" id="algoOut" style="height:310px;">ALGO LAB ONLINE â€” SUBMIT A PROBLEM.</div>
             </div>
           </div>
         </div>
@@ -1179,15 +1179,15 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
         </div>
       </div>
 
-      <!-- ════════════════════ MISSION ════════════════════ -->
+      <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• MISSION â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
       <div class="page" id="page-mission">
-        <div class="sec-hdr"><div class="sec-badge green">MISSION</div><div class="sec-title">WHAT IA CENTINELL SOLVES — STRATEGIC POSITIONING</div><div class="sec-line"></div></div>
+        <div class="sec-hdr"><div class="sec-badge green">MISSION</div><div class="sec-title">WHAT IA CENTINELL SOLVES â€” STRATEGIC POSITIONING</div><div class="sec-line"></div></div>
         <div class="metrics-grid" style="grid-template-columns:repeat(5,1fr);">
           <div class="mcard" style="border-top:2px solid var(--cyan);"><div class="mcard-val">5</div><div class="mcard-lbl">CORE PROBLEMS</div></div>
           <div class="mcard" style="border-top:2px solid var(--green);"><div class="mcard-val green">HITL</div><div class="mcard-lbl">GOVERNANCE</div></div>
           <div class="mcard" style="border-top:2px solid var(--orange);"><div class="mcard-val orange">AV+AI</div><div class="mcard-lbl">HYBRID PLATFORM</div></div>
           <div class="mcard" style="border-top:2px solid var(--purple);"><div class="mcard-val purple">12+</div><div class="mcard-lbl">FRAMEWORKS</div></div>
-          <div class="mcard" style="border-top:2px solid var(--amber);cursor:pointer;" onclick="nav('analyst');setTimeout(()=>quickAsk('Explain IA Centinell hybrid positioning between enterprise AI and antivirus protection'),200)"><div class="mcard-val amber">AI</div><div class="mcard-lbl">ASK ANALYST ↗</div></div>
+          <div class="mcard" style="border-top:2px solid var(--amber);cursor:pointer;" onclick="nav('analyst');setTimeout(()=>quickAsk('Explain IA Centinell hybrid positioning between enterprise AI and antivirus protection'),200)"><div class="mcard-val amber">AI</div><div class="mcard-lbl">ASK ANALYST â†—</div></div>
         </div>
         <div class="row">
           <div class="col">
@@ -1197,12 +1197,12 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
               <div style="display:flex;gap:0.6rem;margin-bottom:0.7rem;align-items:center;">
                 <div style="flex:1;background:#020c1b;border:1px solid var(--border);border-left:3px solid var(--cyan);padding:0.6rem 0.8rem;">
                   <div style="font-family:var(--orb);font-size:0.55rem;color:var(--cyan);letter-spacing:0.08em;margin-bottom:0.3rem;">ENTERPRISE AI</div>
-                  <div style="font-family:var(--raj);font-size:0.72rem;color:var(--textd);">Governance · HITL · Audit · Forensics · Ethics · Compliance · Intelligence</div>
+                  <div style="font-family:var(--raj);font-size:0.72rem;color:var(--textd);">Governance Â· HITL Â· Audit Â· Forensics Â· Ethics Â· Compliance Â· Intelligence</div>
                 </div>
                 <div style="font-family:var(--orb);font-size:1.2rem;color:var(--orange);font-weight:900;">+</div>
                 <div style="flex:1;background:#020c1b;border:1px solid var(--border);border-left:3px solid var(--orange);padding:0.6rem 0.8rem;">
                   <div style="font-family:var(--orb);font-size:0.55rem;color:var(--orange);letter-spacing:0.08em;margin-bottom:0.3rem;">ACTIVE PROTECTION</div>
-                  <div style="font-family:var(--raj);font-size:0.72rem;color:var(--textd);">Threat Shield · File Scanner · Net Sentinel · Quarantine · Behavioral AI</div>
+                  <div style="font-family:var(--raj);font-size:0.72rem;color:var(--textd);">Threat Shield Â· File Scanner Â· Net Sentinel Â· Quarantine Â· Behavioral AI</div>
                 </div>
               </div>
               <div style="background:#020c1b;border:1px solid var(--border);border-top:2px solid var(--orange);padding:0.6rem 0.8rem;text-align:center;">
@@ -1225,26 +1225,26 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
               <div class="card-title" style="margin-bottom:0.3rem;">COMPETITIVE DIFFERENTIATION</div>
               <table class="tbl">
                 <tr><th>FEATURE</th><th>ANTIVIRUS</th><th>ENT. AI</th><th>IA CENTINELL</th></tr>
-                <tr><td>File Scanning</td><td style="color:var(--green);">✓</td><td style="color:var(--red);">✗</td><td style="color:var(--green);">✓</td></tr>
-                <tr><td>Malware Detection</td><td style="color:var(--green);">✓</td><td style="color:var(--red);">✗</td><td style="color:var(--green);">✓</td></tr>
-                <tr><td>AI Governance / HITL</td><td style="color:var(--red);">✗</td><td style="color:var(--green);">✓</td><td style="color:var(--green);">✓</td></tr>
-                <tr><td>Digital Forensics</td><td style="color:var(--red);">✗</td><td style="color:var(--amber);">~</td><td style="color:var(--green);">✓</td></tr>
-                <tr><td>Compliance Engine</td><td style="color:var(--red);">✗</td><td style="color:var(--green);">✓</td><td style="color:var(--green);">✓</td></tr>
-                <tr><td>Threat Attribution</td><td style="color:var(--amber);">~</td><td style="color:var(--green);">✓</td><td style="color:var(--green);">✓</td></tr>
-                <tr><td>Maritime Security</td><td style="color:var(--red);">✗</td><td style="color:var(--red);">✗</td><td style="color:var(--green);">✓</td></tr>
-                <tr><td>Algo Intelligence</td><td style="color:var(--red);">✗</td><td style="color:var(--amber);">~</td><td style="color:var(--green);">✓</td></tr>
-                <tr><td>Quarantine System</td><td style="color:var(--green);">✓</td><td style="color:var(--red);">✗</td><td style="color:var(--green);">✓</td></tr>
+                <tr><td>File Scanning</td><td style="color:var(--green);">âœ“</td><td style="color:var(--red);">âœ—</td><td style="color:var(--green);">âœ“</td></tr>
+                <tr><td>Malware Detection</td><td style="color:var(--green);">âœ“</td><td style="color:var(--red);">âœ—</td><td style="color:var(--green);">âœ“</td></tr>
+                <tr><td>AI Governance / HITL</td><td style="color:var(--red);">âœ—</td><td style="color:var(--green);">âœ“</td><td style="color:var(--green);">âœ“</td></tr>
+                <tr><td>Digital Forensics</td><td style="color:var(--red);">âœ—</td><td style="color:var(--amber);">~</td><td style="color:var(--green);">âœ“</td></tr>
+                <tr><td>Compliance Engine</td><td style="color:var(--red);">âœ—</td><td style="color:var(--green);">âœ“</td><td style="color:var(--green);">âœ“</td></tr>
+                <tr><td>Threat Attribution</td><td style="color:var(--amber);">~</td><td style="color:var(--green);">âœ“</td><td style="color:var(--green);">âœ“</td></tr>
+                <tr><td>Maritime Security</td><td style="color:var(--red);">âœ—</td><td style="color:var(--red);">âœ—</td><td style="color:var(--green);">âœ“</td></tr>
+                <tr><td>Algo Intelligence</td><td style="color:var(--red);">âœ—</td><td style="color:var(--amber);">~</td><td style="color:var(--green);">âœ“</td></tr>
+                <tr><td>Quarantine System</td><td style="color:var(--green);">âœ“</td><td style="color:var(--red);">âœ—</td><td style="color:var(--green);">âœ“</td></tr>
               </table>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- ════════════════════ ARCHITECTURE ════════════════════ -->
+      <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• ARCHITECTURE â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
       <div class="page" id="page-arch">
-        <div class="sec-hdr"><div class="sec-badge purple">ARCHITECTURE</div><div class="sec-title">FULL STACK ROADMAP — ENTERPRISE DEPLOYMENT BLUEPRINT</div><div class="sec-line"></div></div>
+        <div class="sec-hdr"><div class="sec-badge purple">ARCHITECTURE</div><div class="sec-title">FULL STACK ROADMAP â€” ENTERPRISE DEPLOYMENT BLUEPRINT</div><div class="sec-line"></div></div>
         <div class="card purple-top">
-          <div class="card-title">CURRENT STATE — v4.0 PRODUCTION FRONTEND</div>
+          <div class="card-title">CURRENT STATE â€” v4.0 PRODUCTION FRONTEND</div>
           <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:0.5rem;margin-bottom:0.6rem;">
             <div class="arch-node cyan"><div class="arch-node-title">FRONTEND</div><div class="arch-node-sub">HTML/CSS/JS SPA</div></div>
             <div class="arch-node cyan"><div class="arch-node-title">IA ENGINE</div><div class="arch-node-sub">Real AI Responses</div></div>
@@ -1254,7 +1254,7 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
           </div>
         </div>
         <div class="card amber-top">
-          <div class="card-title">PHASE 2 — BACKEND (90 DAYS)</div>
+          <div class="card-title">PHASE 2 â€” BACKEND (90 DAYS)</div>
           <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:0.5rem;margin-bottom:0.6rem;">
             <div class="arch-node amber"><div class="arch-node-title">API GATEWAY</div><div class="arch-node-sub">FastAPI</div></div>
             <div class="arch-node amber"><div class="arch-node-title">AUTH / RBAC</div><div class="arch-node-sub">JWT + bcrypt</div></div>
@@ -1264,7 +1264,7 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
           </div>
         </div>
         <div class="card green-top">
-          <div class="card-title">PHASE 3 — ENTERPRISE (6 MONTHS)</div>
+          <div class="card-title">PHASE 3 â€” ENTERPRISE (6 MONTHS)</div>
           <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:0.5rem;margin-bottom:0.6rem;">
             <div class="arch-node green"><div class="arch-node-title">MICROSERVICES</div><div class="arch-node-sub">Docker + K8s</div></div>
             <div class="arch-node green"><div class="arch-node-title">AV ENGINE</div><div class="arch-node-sub">Signature Engine</div></div>
@@ -1279,7 +1279,7 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
               <div class="card-title">TECH STACK</div>
               <table class="tbl">
                 <tr><th>LAYER</th><th>TECH</th><th>STATUS</th></tr>
-                <tr><td>Frontend</td><td>HTML/CSS/JS → React 18</td><td><span class="tag tag-green">CURRENT</span></td></tr>
+                <tr><td>Frontend</td><td>HTML/CSS/JS â†’ React 18</td><td><span class="tag tag-green">CURRENT</span></td></tr>
                 <tr><td>Protection Engine</td><td>AI Behavioral Analysis</td><td><span class="tag tag-green">CURRENT</span></td></tr>
                 <tr><td>API</td><td>FastAPI Python 3.11</td><td><span class="tag tag-amber">PHASE 2</span></td></tr>
                 <tr><td>Auth</td><td>JWT + RBAC + bcrypt</td><td><span class="tag tag-amber">PHASE 2</span></td></tr>
@@ -1307,9 +1307,9 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
         </div>
       </div>
 
-      <!-- ════════════════════ CLIENT PANEL ════════════════════ -->
+      <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• CLIENT PANEL â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
       <div class="page" id="page-clients">
-        <div class="sec-hdr"><div class="sec-badge red">ADMIN</div><div class="sec-title">CLIENT PANEL — ENTERPRISE ACCOUNT MANAGEMENT</div><div class="sec-line"></div></div>
+        <div class="sec-hdr"><div class="sec-badge red">ADMIN</div><div class="sec-title">CLIENT PANEL â€” ENTERPRISE ACCOUNT MANAGEMENT</div><div class="sec-line"></div></div>
         <div class="metrics-grid" style="grid-template-columns:repeat(4,1fr);">
           <div class="mcard"><div class="mcard-val" id="cpTotal">0</div><div class="mcard-lbl">TOTAL CLIENTS</div></div>
           <div class="mcard"><div class="mcard-val green" id="cpActive">0</div><div class="mcard-lbl">ACTIVE</div></div>
@@ -1345,13 +1345,13 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
   </div><!-- /main -->
 </div><!-- /shell -->
 
-<button id="toggleAudit" onclick="toggleLog()">▲ AUDIT LOG</button>
+<button id="toggleAudit" onclick="toggleLog()">â–² AUDIT LOG</button>
 
-      <!-- ═══════════════════════ INFRASTRUCTURE NODES v6.0 ═══════════════════════ -->
+      <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• INFRASTRUCTURE NODES v6.0 â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
       <div class="page" id="page-infra">
         <div class="sec-hdr">
           <div class="sec-badge purple">INFRASTRUCTURE</div>
-          <div class="sec-title">GLOBAL NODE MONITORING — RESOURCE ALLOCATION</div>
+          <div class="sec-title">GLOBAL NODE MONITORING â€” RESOURCE ALLOCATION</div>
           <div class="sec-line"></div>
         </div>
 
@@ -1383,16 +1383,16 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
             <div class="card amber-top">
               <div class="card-title">SYSTEM LOAD SIMULATOR</div>
               <div id="infra-stats" style="font-family: var(--mono); font-size: 0.6rem; line-height: 2; color: var(--textd); margin-bottom: 0.5rem;"></div>
-              <button class="btn btn-red" style="width: 100%; margin-top: 10px;" onclick="simulateAttack()">⚠ TEST INCIDENT RESPONSE</button>
+              <button class="btn btn-red" style="width: 100%; margin-top: 10px;" onclick="simulateAttack()">âš  TEST INCIDENT RESPONSE</button>
             </div>
             <div class="card cyan-top">
               <div class="card-title">NODE STATUS MATRIX</div>
               <table class="tbl">
                 <tr><th>NODE</th><th>REGION</th><th>STATUS</th><th>CPU</th><th>LATENCY</th></tr>
-                <tr><td>NODE-01</td><td>USA-EAST</td><td><span class="tag tag-green">ONLINE</span></td><td id="cpu-na">—</td><td>12ms</td></tr>
-                <tr><td>NODE-02</td><td>EU-CENTRAL</td><td><span class="tag tag-green">ONLINE</span></td><td id="cpu-eu">—</td><td>28ms</td></tr>
-                <tr><td>NODE-03</td><td>APAC</td><td><span class="tag tag-amber">WARNING</span></td><td id="cpu-ap">—</td><td>67ms</td></tr>
-                <tr><td>NODE-04</td><td>LATAM</td><td><span class="tag tag-green">ONLINE</span></td><td id="cpu-la">—</td><td>41ms</td></tr>
+                <tr><td>NODE-01</td><td>USA-EAST</td><td><span class="tag tag-green">ONLINE</span></td><td id="cpu-na">â€”</td><td>12ms</td></tr>
+                <tr><td>NODE-02</td><td>EU-CENTRAL</td><td><span class="tag tag-green">ONLINE</span></td><td id="cpu-eu">â€”</td><td>28ms</td></tr>
+                <tr><td>NODE-03</td><td>APAC</td><td><span class="tag tag-amber">WARNING</span></td><td id="cpu-ap">â€”</td><td>67ms</td></tr>
+                <tr><td>NODE-04</td><td>LATAM</td><td><span class="tag tag-green">ONLINE</span></td><td id="cpu-la">â€”</td><td>41ms</td></tr>
               </table>
             </div>
           </div>
@@ -1413,9 +1413,9 @@ Registry: writes to HKLM\System\CurrentControlSet\Services</textarea>
 <div id="g-auditlog"><div class="inner" id="glog">SYSTEM READY.</div></div>
 
 <script>
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // ACCOUNTS & STATE
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 const ACCOUNTS={
   beacon:{pass:'beacon2025',company:'Beacon of the Eagle LLC',clearance:'LEVEL-5 ADMIN',industry:'Cybersecurity/Maritime',accent:'#5a9fbf',admin:true},
 };
@@ -1430,16 +1430,16 @@ let qCleaned=0,qHigh=0,qMed=0;
 const selectedMitre=new Set();
 let _feedTimer=null,_netTimer=null,_radarRAF=null;
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // SESSION
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 function saveSession(){try{localStorage.setItem('iac_v4_session',JSON.stringify(session));}catch(e){}}
 function loadSession(){try{const s=localStorage.getItem('iac_v4_session');if(s){const d=JSON.parse(s);if(d&&d.user&&ACCOUNTS[d.user])return d;}}catch(e){}return null;}
 function clearSession(){try{localStorage.removeItem('iac_v4_session');}catch(e){}}
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // BOOT
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 const bootLines=[
   {t:'POWER ON SEQUENCE...',c:''},
   {t:'LOADING CRYPTOGRAPHIC ENGINE...',c:'ok'},
@@ -1453,7 +1453,7 @@ const bootLines=[
   {t:'QUARANTINE VAULT: SECURED',c:'prot'},
   {t:'SESSION MANAGER: AES-256 ACTIVE',c:'prot'},
   {t:'IA CENTINELL ENGINE: STANDBY',c:'warn'},
-  {t:'ALL ENGINES NOMINAL — AUTHENTICATION REQUIRED.',c:'ok'},
+  {t:'ALL ENGINES NOMINAL â€” AUTHENTICATION REQUIRED.',c:'ok'},
 ];
 let bi=0;
 function bootStep(){
@@ -1480,16 +1480,16 @@ function bootStep(){
 }
 setTimeout(bootStep,400);
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // LOGIN
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 function doLogin(){
   const u=document.getElementById('loginUser').value.trim().toLowerCase();
   const p=document.getElementById('loginPass').value;
   const err=document.getElementById('loginErr');
   const btn=document.getElementById('loginBtn');
   if(!ACCOUNTS[u]||ACCOUNTS[u].pass!==p){
-    err.textContent='⚠ ACCESS DENIED — INVALID CREDENTIALS';
+    err.textContent='âš  ACCESS DENIED â€” INVALID CREDENTIALS';
     err.classList.remove('shake');void err.offsetWidth;err.classList.add('shake');
     return;
   }
@@ -1532,9 +1532,9 @@ function doLogout(){
   currentUser=null;session=null;
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // CLOCK & FEED
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 function tick(){const t=new Date().toISOString().substr(11,8)+' UTC';document.getElementById('topClock').textContent=t;document.getElementById('sbClock').textContent=t.substr(0,5)+' UTC';}
 setInterval(tick,1000);tick();
 const feedMsgs=[
@@ -1558,10 +1558,10 @@ function startLiveFeed(){
   },3000);
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // NAVIGATION
-// ═══════════════════════════════════════════════════════════════
-const pageNames={bridge:'BRIDGE — COMMAND HQ',shield:'THREAT SHIELD — ACTIVE PROTECTION ENGINE',netwatch:'NET SENTINEL — NETWORK MONITOR',guardian:'FILE GUARDIAN — INTEGRITY WATCH',quarantine:'QUARANTINE — ISOLATED THREATS',c11:'IA-CORE-1-1 — DIGITAL AUDIT ENGINE',c12:'IA-CORE-1-2 — FORENSIC INTEGRITY SCANNER',c13:'IA-CORE-1-3 — ETHICAL AI GOVERNOR',c14:'IA-CORE-1-4 — THREAT ATTRIBUTION',analyst:'AI ANALYST — INTELLIGENCE INTERFACE',algo:'ALGO LAB — ELITE PROBLEM SOLVER',mission:'MISSION — STRATEGIC POSITIONING',arch:'ARCHITECTURE — FULL STACK ROADMAP',clients:'ADMIN — CLIENT PANEL',infra:'INFRASTRUCTURE NODES — GLOBAL DATACENTER STATUS'};
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+const pageNames={bridge:'BRIDGE â€” COMMAND HQ',shield:'THREAT SHIELD â€” ACTIVE PROTECTION ENGINE',netwatch:'NET SENTINEL â€” NETWORK MONITOR',guardian:'FILE GUARDIAN â€” INTEGRITY WATCH',quarantine:'QUARANTINE â€” ISOLATED THREATS',c11:'IA-CORE-1-1 â€” DIGITAL AUDIT ENGINE',c12:'IA-CORE-1-2 â€” FORENSIC INTEGRITY SCANNER',c13:'IA-CORE-1-3 â€” ETHICAL AI GOVERNOR',c14:'IA-CORE-1-4 â€” THREAT ATTRIBUTION',analyst:'AI ANALYST â€” INTELLIGENCE INTERFACE',algo:'ALGO LAB â€” ELITE PROBLEM SOLVER',mission:'MISSION â€” STRATEGIC POSITIONING',arch:'ARCHITECTURE â€” FULL STACK ROADMAP',clients:'ADMIN â€” CLIENT PANEL',infra:'INFRASTRUCTURE NODES â€” GLOBAL DATACENTER STATUS'};
 let _currentPage='bridge';
 function nav(id){
   if(id===_currentPage)return;
@@ -1600,9 +1600,9 @@ function tileNav(id,el){
   setTimeout(()=>nav(id),120);
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // AUDIT LOG
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 function log(msg,type='op'){
   state.ops++;
   document.getElementById('topOps').textContent=state.ops;
@@ -1616,7 +1616,7 @@ function log(msg,type='op'){
   const bl=document.getElementById('bridgeLog');
   if(bl){const prev=bl.textContent;bl.textContent=(prev.includes('ALL PROTECTION')?'':prev+'\n')+`[${ts}] ${msg}`;bl.scrollTop=9999;}
 }
-function toggleLog(){auditOpen=!auditOpen;document.getElementById('g-auditlog').className=auditOpen?'open':'';document.getElementById('toggleAudit').textContent=(auditOpen?'▼':'▲')+' AUDIT LOG';}
+function toggleLog(){auditOpen=!auditOpen;document.getElementById('g-auditlog').className=auditOpen?'open':'';document.getElementById('toggleAudit').textContent=(auditOpen?'â–¼':'â–²')+' AUDIT LOG';}
 function updateProtectionScore(){
   const total=100;
   const threats=Math.min(state.threats*10,40);
@@ -1633,9 +1633,9 @@ function updateProtectionScore(){
   path.style.stroke=color;
   document.getElementById('shieldScore').style.color=color;
   const badge=document.getElementById('protStatusBadge');
-  if(score>80){badge.className='prot-status protected';badge.textContent='🛡 FULLY PROTECTED';}
-  else if(score>50){badge.className='prot-status warning';badge.textContent='⚠ PROTECTION REDUCED';}
-  else{badge.className='prot-status danger';badge.textContent='🚨 UNDER THREAT';}
+  if(score>80){badge.className='prot-status protected';badge.textContent='ðŸ›¡ FULLY PROTECTED';}
+  else if(score>50){badge.className='prot-status warning';badge.textContent='âš  PROTECTION REDUCED';}
+  else{badge.className='prot-status danger';badge.textContent='ðŸš¨ UNDER THREAT';}
   const dot=document.getElementById('sbProtDot');const lbl=document.getElementById('sbProtLbl');
   dot.style.background=color;dot.style.boxShadow=`0 0 6px ${color}`;lbl.style.color=color;
   lbl.textContent=score>80?'PROTECTED':score>50?'WARNING':'DANGER';
@@ -1643,17 +1643,17 @@ function updateProtectionScore(){
   document.getElementById('topProtected').className='tb-mv'+(score>80?' green':score>50?' amber':' red');
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // SHA-256
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 async function sha256(str){
   const buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(str));
   return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // IA ENGINE
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 function apiKey(){return document.getElementById('globalKey').value.trim();}
 async function iaAsk(key,system,userMsg){
   const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json','x-api-key':key,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:1000,system,messages:[{role:'user',content:userMsg}]})});
@@ -1664,9 +1664,9 @@ async function iaChat(key,system,messages){
   const d=await r.json();if(d.error)throw new Error(d.error.message);return d.content?.[0]?.text||'';
 }
 
-// ═══════════════════════════════════════════════════════════════
-// THREAT SHIELD — PROTECTION ENGINE
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// THREAT SHIELD â€” PROTECTION ENGINE
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 const KNOWN_SIGS={
   'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855':'EICAR Test File (Harmless)',
   'a3f5d2c9b1e8f4a7d6c3b2e1f9a8d7c6b5e4f3a2d1c0b9e8f7a6d5c4b3e2f1':'Trojan.GenericKD.71234',
@@ -1681,7 +1681,7 @@ function handleScanDrop(e){e.preventDefault();document.getElementById('dropZone'
 async function processFileScan(file){
   document.getElementById('scanResult').style.display='block';
   document.getElementById('scanFileName').textContent=file.name;
-  document.getElementById('scanFileMeta').textContent=`${(file.size/1024).toFixed(2)} KB · ${file.type||'unknown'} · Modified: ${new Date(file.lastModified).toLocaleString()}`;
+  document.getElementById('scanFileMeta').textContent=`${(file.size/1024).toFixed(2)} KB Â· ${file.type||'unknown'} Â· Modified: ${new Date(file.lastModified).toLocaleString()}`;
   document.getElementById('scanAnalysis').textContent='SCANNING FILE...\nComputing SHA-256...\nChecking signature database...\nRunning behavioral analysis...';
   const hash=await (async()=>{const buf=await file.arrayBuffer();const h=await crypto.subtle.digest('SHA-256',buf);return Array.from(new Uint8Array(h)).map(b=>b.toString(16).padStart(2,'0')).join('');})();
   document.getElementById('scanHash').textContent=hash;
@@ -1690,21 +1690,21 @@ async function processFileScan(file){
   const verdict=document.getElementById('scanVerdict');
   const icon=document.getElementById('scanIcon');
   if(isMalicious){
-    verdict.textContent='⚠ THREAT DETECTED';verdict.className='tag tag-red';
-    icon.textContent='🚨';
+    verdict.textContent='âš  THREAT DETECTED';verdict.className='tag tag-red';
+    icon.textContent='ðŸš¨';
     auto_quarantine(file.name,sig||'Unknown Malware','HIGH');
   } else {
-    verdict.textContent='✓ CLEAN';verdict.className='tag tag-green';
-    icon.textContent='✅';
+    verdict.textContent='âœ“ CLEAN';verdict.className='tag tag-green';
+    icon.textContent='âœ…';
   }
   const key=apiKey();
   if(key){
     try{
-      const r=await iaAsk(key,`You are IA Centinell Threat Shield — an AI-powered malware analyst. Analyze this file scan result and provide a threat assessment. If clean, confirm and list what was checked. If threat detected, provide: malware classification, behavior profile, risk level, and immediate remediation steps.`,`File: ${file.name}\nSize: ${(file.size/1024).toFixed(2)} KB\nType: ${file.type||'unknown'}\nSHA-256: ${hash}\n${isMalicious?'SIGNATURE MATCH: '+sig:'No signature match found in database'}\nScan timestamp: ${new Date().toISOString()}`);
+      const r=await iaAsk(key,`You are IA Centinell Threat Shield â€” an AI-powered malware analyst. Analyze this file scan result and provide a threat assessment. If clean, confirm and list what was checked. If threat detected, provide: malware classification, behavior profile, risk level, and immediate remediation steps.`,`File: ${file.name}\nSize: ${(file.size/1024).toFixed(2)} KB\nType: ${file.type||'unknown'}\nSHA-256: ${hash}\n${isMalicious?'SIGNATURE MATCH: '+sig:'No signature match found in database'}\nScan timestamp: ${new Date().toISOString()}`);
       document.getElementById('scanAnalysis').textContent=r;
-    }catch(e){document.getElementById('scanAnalysis').textContent=(isMalicious?'⚠ SIGNATURE MATCH: '+sig+'\n\nManual review required.':'✓ No known signatures matched. File appears clean.\n\nSHA-256: '+hash);}
+    }catch(e){document.getElementById('scanAnalysis').textContent=(isMalicious?'âš  SIGNATURE MATCH: '+sig+'\n\nManual review required.':'âœ“ No known signatures matched. File appears clean.\n\nSHA-256: '+hash);}
   } else {
-    document.getElementById('scanAnalysis').textContent=(isMalicious?'⚠ THREAT SIGNATURE MATCH DETECTED:\n'+sig+'\n\nFile has been automatically quarantined. Enter IA Centinell key for full AI analysis.':'✓ SHA-256: '+hash+'\n✓ No known signatures matched\n✓ File appears CLEAN\n\nEnter IA Centinell key for deep AI behavioral analysis.');
+    document.getElementById('scanAnalysis').textContent=(isMalicious?'âš  THREAT SIGNATURE MATCH DETECTED:\n'+sig+'\n\nFile has been automatically quarantined. Enter IA Centinell key for full AI analysis.':'âœ“ SHA-256: '+hash+'\nâœ“ No known signatures matched\nâœ“ File appears CLEAN\n\nEnter IA Centinell key for deep AI behavioral analysis.');
   }
   state.shield++;document.getElementById('shieldOps').textContent=state.shield;
   log(`FILE SCAN: ${file.name} | ${isMalicious?'THREAT DETECTED: '+sig:'CLEAN'} | SHA-256=${hash.substr(0,12)}...`,isMalicious?'err':'ok');
@@ -1713,9 +1713,9 @@ async function checkSig(){
   const hash=document.getElementById('sigHash').value.trim().toLowerCase();
   if(!hash){document.getElementById('sigOut').textContent='ENTER A HASH TO CHECK.';return;}
   const match=KNOWN_SIGS[hash];
-  document.getElementById('sigOut').textContent=match?`⚠ THREAT DETECTED:\n${match}\n\nHash: ${hash}\nAction: Quarantine immediately.`:`✓ HASH NOT IN SIGNATURE DATABASE\n\nHash: ${hash}\nStatus: CLEAN (no known signature match)\n\nNote: Absence from signature DB does not guarantee safety.\nUse behavioral analysis for unknown files.`;
+  document.getElementById('sigOut').textContent=match?`âš  THREAT DETECTED:\n${match}\n\nHash: ${hash}\nAction: Quarantine immediately.`:`âœ“ HASH NOT IN SIGNATURE DATABASE\n\nHash: ${hash}\nStatus: CLEAN (no known signature match)\n\nNote: Absence from signature DB does not guarantee safety.\nUse behavioral analysis for unknown files.`;
   document.getElementById('sigOut').style.color=match?'var(--red)':'var(--green)';
-  log(`SIG CHECK: ${hash.substr(0,12)}... → ${match?'MATCH: '+match:'CLEAN'}`,match?'err':'ok');
+  log(`SIG CHECK: ${hash.substr(0,12)}... â†’ ${match?'MATCH: '+match:'CLEAN'}`,match?'err':'ok');
 }
 async function runBehavior(){
   const key=apiKey();if(!key){alert('Enter IA Centinell key.');return;}
@@ -1741,9 +1741,9 @@ async function runReputation(){
   btn.disabled=false;btn.textContent='CHECK REPUTATION';
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // NET SENTINEL
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 const FAKE_CONNECTIONS=[
   {ip:'192.168.1.1',port:'443',proto:'HTTPS',status:'ALLOWED',bytes:'1.2MB',flag:false},
   {ip:'8.8.8.8',port:'53',proto:'DNS',status:'ALLOWED',bytes:'12KB',flag:false},
@@ -1777,7 +1777,7 @@ async function runNetAnalysis(){
   const btn=document.getElementById('netBtn');btn.disabled=true;btn.innerHTML='<span class="spin"></span>';
   document.getElementById('netOut').textContent='ANALYZING NETWORK TRAFFIC...';
   try{
-    const r=await iaAsk(key,`You are IA Centinell Net Sentinel — a network security analyst and intrusion detection system. Analyze the provided network log for: ${document.getElementById('netMode').value}. Provide: (1) Threat Classification, (2) Confidence Score, (3) Attack Pattern identified, (4) MITRE ATT&CK Network techniques, (5) Affected systems, (6) Immediate network isolation steps, (7) Evidence to preserve.`,document.getElementById('netInput').value.trim());
+    const r=await iaAsk(key,`You are IA Centinell Net Sentinel â€” a network security analyst and intrusion detection system. Analyze the provided network log for: ${document.getElementById('netMode').value}. Provide: (1) Threat Classification, (2) Confidence Score, (3) Attack Pattern identified, (4) MITRE ATT&CK Network techniques, (5) Affected systems, (6) Immediate network isolation steps, (7) Evidence to preserve.`,document.getElementById('netInput').value.trim());
     document.getElementById('netOut').textContent=r;state.queries++;log(`NET ANALYSIS: ${document.getElementById('netMode').value}`,'warn');
   }catch(e){document.getElementById('netOut').textContent='ERROR: '+e.message;}
   btn.disabled=false;btn.textContent='ANALYZE TRAFFIC';
@@ -1793,9 +1793,9 @@ async function runFirewall(){
   btn.disabled=false;btn.textContent='GENERATE RULES';
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // FILE GUARDIAN
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 async function addToBaseline(input){
   for(const file of input.files){
     const buf=await file.arrayBuffer();
@@ -1811,7 +1811,7 @@ function renderBaseline(){
   baselineFiles.forEach((v,name)=>{
     const d=document.createElement('div');
     d.style.cssText='display:flex;align-items:center;gap:0.5rem;padding:0.3rem 0.5rem;background:#020c1b;border:1px solid var(--border);margin-bottom:3px;';
-    d.innerHTML=`<span style="font-size:0.9rem;">${v.lastVerified?'✅':'📄'}</span><div style="flex:1;"><div style="font-family:var(--mono);font-size:0.52rem;color:var(--text);">${name}</div><div style="font-family:var(--mono);font-size:0.44rem;color:var(--textdd);">${v.hash.substr(0,20)}... | ${(v.size/1024).toFixed(1)}KB</div></div><button onclick="removeBaseline('${name}')" style="font-family:var(--mono);font-size:0.4rem;background:transparent;border:1px solid var(--border2);color:var(--textdd);cursor:pointer;padding:1px 4px;">✕</button>`;
+    d.innerHTML=`<span style="font-size:0.9rem;">${v.lastVerified?'âœ…':'ðŸ“„'}</span><div style="flex:1;"><div style="font-family:var(--mono);font-size:0.52rem;color:var(--text);">${name}</div><div style="font-family:var(--mono);font-size:0.44rem;color:var(--textdd);">${v.hash.substr(0,20)}... | ${(v.size/1024).toFixed(1)}KB</div></div><button onclick="removeBaseline('${name}')" style="font-family:var(--mono);font-size:0.4rem;background:transparent;border:1px solid var(--border2);color:var(--textdd);cursor:pointer;padding:1px 4px;">âœ•</button>`;
     list.appendChild(d);
   });
 }
@@ -1821,10 +1821,10 @@ async function verifyBaseline(){
   const log=document.getElementById('changeLog');log.textContent='VERIFYING BASELINE INTEGRITY...\n';
   baselineFiles.forEach((v,name)=>{
     v.lastVerified=new Date().toISOString();
-    log.textContent+=`✓ ${name}: HASH VERIFIED — ${v.hash.substr(0,16)}...\n`;
+    log.textContent+=`âœ“ ${name}: HASH VERIFIED â€” ${v.hash.substr(0,16)}...\n`;
   });
-  log.textContent+='ALL FILES VERIFIED — BASELINE INTACT.';renderBaseline();
-  window.log('FILE GUARDIAN: BASELINE VERIFICATION COMPLETE — ALL FILES NOMINAL','ok');
+  log.textContent+='ALL FILES VERIFIED â€” BASELINE INTACT.';renderBaseline();
+  window.log('FILE GUARDIAN: BASELINE VERIFICATION COMPLETE â€” ALL FILES NOMINAL','ok');
 }
 function clearBaseline(){baselineFiles.clear();renderBaseline();document.getElementById('baselineCount').textContent=0;}
 async function runFileBehavior(){
@@ -1832,7 +1832,7 @@ async function runFileBehavior(){
   const btn=document.getElementById('fileBehaviorBtn');btn.disabled=true;btn.innerHTML='<span class="spin"></span>';
   document.getElementById('fileBehaviorOut').textContent='ANALYZING FILE BEHAVIOR...';
   try{
-    const r=await iaAsk(key,`You are IA Centinell File Guardian — behavioral threat analyst. Analyze file metadata and behavior patterns for: ${document.getElementById('fileBehaviorMode').value}. Provide: (1) Malware Classification (or CLEAN), (2) Risk Score 0-100, (3) Suspicious indicators found, (4) Process chain analysis, (5) Registry/network behavior assessment, (6) Confidence level, (7) Remediation steps.`,document.getElementById('fileBehaviorInput').value.trim());
+    const r=await iaAsk(key,`You are IA Centinell File Guardian â€” behavioral threat analyst. Analyze file metadata and behavior patterns for: ${document.getElementById('fileBehaviorMode').value}. Provide: (1) Malware Classification (or CLEAN), (2) Risk Score 0-100, (3) Suspicious indicators found, (4) Process chain analysis, (5) Registry/network behavior assessment, (6) Confidence level, (7) Remediation steps.`,document.getElementById('fileBehaviorInput').value.trim());
     document.getElementById('fileBehaviorOut').textContent=r;state.queries++;state.guard++;document.getElementById('guardOps').textContent=state.guard;log('FILE BEHAVIOR ANALYSIS COMPLETE','ok');
   }catch(e){document.getElementById('fileBehaviorOut').textContent='ERROR: '+e.message;}
   btn.disabled=false;btn.textContent='ANALYZE FILE';
@@ -1848,9 +1848,9 @@ async function runSysInt(){
   btn.disabled=false;btn.textContent='CHECK INTEGRITY';
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // QUARANTINE
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 function auto_quarantine(name,type,risk){addToQuarantine(name,type,risk,true);}
 function addQuarantine(){
   const name=document.getElementById('qName').value.trim();
@@ -1879,7 +1879,7 @@ function renderQuarantine(){
     const i=quarantineItems.length-1-ri;
     const d=document.createElement('div');
     d.className='qrow';d.style.cursor='pointer';d.onclick=()=>showQDetail(i);
-    d.innerHTML=`<span style="font-size:1.1rem;">${item.status==='CLEANED'?'✅':'🔒'}</span><div class="qrow-name">${item.name}</div><span class="tag ${item.risk==='HIGH'?'tag-red':item.risk==='MEDIUM'?'tag-amber':'tag-green'}" style="font-size:0.4rem;">${item.risk}</span><div class="qrow-type">${item.type}</div><div class="qrow-ts">${item.ts.substr(11,8)}</div>`;
+    d.innerHTML=`<span style="font-size:1.1rem;">${item.status==='CLEANED'?'âœ…':'ðŸ”’'}</span><div class="qrow-name">${item.name}</div><span class="tag ${item.risk==='HIGH'?'tag-red':item.risk==='MEDIUM'?'tag-amber':'tag-green'}" style="font-size:0.4rem;">${item.risk}</span><div class="qrow-type">${item.type}</div><div class="qrow-ts">${item.ts.substr(11,8)}</div>`;
     if(item.status==='QUARANTINED'){
       d.innerHTML+=`<button onclick="event.stopPropagation();cleanItem(${i})" style="font-family:var(--mono);font-size:0.4rem;background:var(--green);color:var(--bg);border:none;cursor:pointer;padding:2px 5px;margin-left:3px;">CLEAN</button>`;
       d.innerHTML+=`<button onclick="event.stopPropagation();deleteItem(${i})" style="font-family:var(--mono);font-size:0.4rem;background:var(--red);color:#fff;border:none;cursor:pointer;padding:2px 5px;margin-left:2px;">DELETE</button>`;
@@ -1904,9 +1904,9 @@ async function runRemediation(){
   btn.disabled=false;btn.textContent='GET REMEDIATION GUIDE';
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // IA-CORE-1-1
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 async function runHash11(){
   const inp=document.getElementById('h11input').value.trim()||'entrada';
   const key=document.getElementById('h11key').value.trim()||'key';
@@ -1925,7 +1925,7 @@ async function compareHashes(){
   if(!a||!b){document.getElementById('cmpOut').textContent='ERROR: BOTH FIELDS REQUIRED';return;}
   const match=a.toLowerCase()===b.toLowerCase();
   document.getElementById('cmpOut').style.color=match?'var(--green)':'var(--red)';
-  document.getElementById('cmpOut').textContent=match?'✓ MATCH — INTEGRITY VERIFIED.':'✗ MISMATCH — TAMPERING DETECTED.\nA: '+a+'\nB: '+b;
+  document.getElementById('cmpOut').textContent=match?'âœ“ MATCH â€” INTEGRITY VERIFIED.':'âœ— MISMATCH â€” TAMPERING DETECTED.\nA: '+a+'\nB: '+b;
   log(`HASH COMPARE: ${match?'MATCH':'MISMATCH'}`,match?'ok':'err');
 }
 async function hashFile(input,outId,infoId){
@@ -1949,9 +1949,9 @@ async function aiAuditAnalyze(){
   await askAI11();
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // IA-CORE-1-2
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 async function openCase(){
   const id=document.getElementById('caseId').value.trim();
   const type=document.getElementById('caseType').value;
@@ -1965,7 +1965,7 @@ async function openCase(){
     d.innerHTML=`<div class="chain-icon">${s.icon}</div><div class="col"><div class="chain-lbl">${s.label}</div><div class="chain-val">${s.val}</div></div>`;cl.appendChild(d);
   });
   const tb=document.getElementById('timelineBox');tb.innerHTML='';
-  [{ts,text:`CASE: ${id} — ${type}`},{ts,text:`AGENT: ${agent}`},...evidence.map((ev,i)=>({ts:new Date(Date.now()+i*60000).toISOString(),text:`EVIDENCE ${i+1}: ${ev}`}))].forEach(item=>{
+  [{ts,text:`CASE: ${id} â€” ${type}`},{ts,text:`AGENT: ${agent}`},...evidence.map((ev,i)=>({ts:new Date(Date.now()+i*60000).toISOString(),text:`EVIDENCE ${i+1}: ${ev}`}))].forEach(item=>{
     const d=document.createElement('div');d.style.cssText='position:relative;padding-left:1.2rem;margin-bottom:0.5rem;border-left:1px solid var(--border2);';
     d.innerHTML=`<div style="position:absolute;left:-4px;top:3px;width:8px;height:8px;border:1px solid var(--cyan2);background:var(--panel);"></div><div style="font-family:var(--mono);font-size:0.48rem;color:var(--textdd);">${item.ts.substr(0,19).replace('T',' ')}</div><div style="font-family:var(--raj);font-size:0.74rem;">${item.text}</div>`;
     tb.appendChild(d);
@@ -1976,19 +1976,19 @@ async function runForensic(){
   const key=apiKey();if(!key){alert('Enter IA Centinell key.');return;}
   const btn=document.getElementById('forensicBtn');btn.disabled=true;btn.innerHTML='<span class="spin"></span>';
   document.getElementById('forensicOut').textContent='FORENSIC ANALYSIS IN PROGRESS...';
-  try{const r=await iaAsk(key,`You are IA-Core-1-2 — senior forensic investigator. Perform ${document.getElementById('forensicMode').value}. Provide: evidence summary, IOC identification, chain-of-custody recommendations, MITRE ATT&CK techniques, actionable findings.`,document.getElementById('forensicInput').value.trim());document.getElementById('forensicOut').textContent=r;state.queries++;state.c12++;document.getElementById('c12ops').textContent=state.c12;log('FORENSIC ANALYSIS COMPLETE','ok');}
+  try{const r=await iaAsk(key,`You are IA-Core-1-2 â€” senior forensic investigator. Perform ${document.getElementById('forensicMode').value}. Provide: evidence summary, IOC identification, chain-of-custody recommendations, MITRE ATT&CK techniques, actionable findings.`,document.getElementById('forensicInput').value.trim());document.getElementById('forensicOut').textContent=r;state.queries++;state.c12++;document.getElementById('c12ops').textContent=state.c12;log('FORENSIC ANALYSIS COMPLETE','ok');}
   catch(e){document.getElementById('forensicOut').textContent='ERROR: '+e.message;}
   btn.disabled=false;btn.textContent='ANALYZE';
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // IA-CORE-1-3
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 async function runEthics(){
   const key=apiKey();if(!key){alert('Enter IA Centinell key.');return;}
   const btn=document.getElementById('ethicsBtn');btn.disabled=true;btn.innerHTML='<span class="spin"></span>';
   document.getElementById('ethicsOut').textContent='EVALUATING...';
-  try{const r=await iaAsk(key,`You are IA-Core-1-3 — Ethical AI Governor. Evaluate against ${document.getElementById('ethicsFramework').value} at ${document.getElementById('ethicsRisk').value}. Provide: Ethics Score, HITL requirement, violations, bias analysis, transparency, safeguards, verdict APPROVED/CONDITIONAL/REJECTED.`,document.getElementById('ethicsInput').value.trim());document.getElementById('ethicsOut').textContent=r;state.queries++;state.c13++;document.getElementById('c13ops').textContent=state.c13;log('ETHICS EVALUATION COMPLETE','ok');}
+  try{const r=await iaAsk(key,`You are IA-Core-1-3 â€” Ethical AI Governor. Evaluate against ${document.getElementById('ethicsFramework').value} at ${document.getElementById('ethicsRisk').value}. Provide: Ethics Score, HITL requirement, violations, bias analysis, transparency, safeguards, verdict APPROVED/CONDITIONAL/REJECTED.`,document.getElementById('ethicsInput').value.trim());document.getElementById('ethicsOut').textContent=r;state.queries++;state.c13++;document.getElementById('c13ops').textContent=state.c13;log('ETHICS EVALUATION COMPLETE','ok');}
   catch(e){document.getElementById('ethicsOut').textContent='ERROR: '+e.message;}
   btn.disabled=false;btn.textContent='EVALUATE';
 }
@@ -2010,7 +2010,7 @@ async function runCompliance(){
   if(document.getElementById('chk_imo').checked)fws.push('IMO 2021');
   const btn=document.getElementById('compBtn');btn.disabled=true;btn.innerHTML='<span class="spin"></span>';
   document.getElementById('compOut').textContent='ASSESSING...';
-  try{const r=await iaAsk(key,`You are IA-Core-1-3 compliance subsystem. Assess against: ${fws.join(', ')}. For each: ✓ compliant ✗ non-compliant ? gaps. Score per framework and remediation.`,document.getElementById('complianceInput').value.trim());document.getElementById('compOut').textContent=r;state.queries++;state.c13++;log(`COMPLIANCE: ${fws.join(', ')}`,'ok');}
+  try{const r=await iaAsk(key,`You are IA-Core-1-3 compliance subsystem. Assess against: ${fws.join(', ')}. For each: âœ“ compliant âœ— non-compliant ? gaps. Score per framework and remediation.`,document.getElementById('complianceInput').value.trim());document.getElementById('compOut').textContent=r;state.queries++;state.c13++;log(`COMPLIANCE: ${fws.join(', ')}`,'ok');}
   catch(e){document.getElementById('compOut').textContent='ERROR: '+e.message;}
   btn.disabled=false;btn.textContent='ASSESS';
 }
@@ -2029,7 +2029,7 @@ function renderHITL(){
   hitlItems.slice().reverse().forEach((item,ri)=>{
     const i=hitlItems.length-1-ri;
     const d=document.createElement('div');d.className=`hitl-card ${item.status==='APPROVED'?'approved':item.status==='REJECTED'?'rejected':''}`;
-    d.innerHTML=`<div class="hitl-id">${item.id} · ${item.ts.substr(11,8)} UTC · <span class="tag ${item.risk==='HIGH'?'tag-red':'tag-amber'}" style="font-size:0.4rem;">${item.risk}</span></div><div class="hitl-desc">${item.desc}</div>`;
+    d.innerHTML=`<div class="hitl-id">${item.id} Â· ${item.ts.substr(11,8)} UTC Â· <span class="tag ${item.risk==='HIGH'?'tag-red':'tag-amber'}" style="font-size:0.4rem;">${item.risk}</span></div><div class="hitl-desc">${item.desc}</div>`;
     if(item.status==='PENDING'){d.innerHTML+=`<div style="display:flex;gap:0.35rem;"><button class="btn btn-green" style="font-size:0.45rem;padding:2px 7px;" onclick="hitlDecide(${i},'APPROVED')">APPROVE</button><button class="btn btn-red" style="font-size:0.45rem;padding:2px 7px;" onclick="hitlDecide(${i},'REJECTED')">REJECT</button><button class="btn btn-ghost" style="font-size:0.45rem;padding:2px 7px;" onclick="hitlDecide(${i},'REVIEW')">REVIEW</button></div>`;}
     else{d.innerHTML+=`<div style="font-family:var(--mono);font-size:0.45rem;color:${item.status==='APPROVED'?'var(--green)':'var(--red)'};">${item.status}</div>`;}
     box.appendChild(d);
@@ -2039,12 +2039,12 @@ function hitlDecide(i,dec){
   const prev=hitlItems[i].status;
   hitlItems[i].status=dec;
   if(prev==='PENDING'){hitlPending--;if(dec==='APPROVED')hitlApproved++;else if(dec==='REJECTED')hitlRejected++;}
-  renderHITL();state.c13++;document.getElementById('c13ops').textContent=state.c13;log(`HITL: ${hitlItems[i].id} → ${dec}`,dec==='APPROVED'?'ok':dec==='REJECTED'?'err':'warn');
+  renderHITL();state.c13++;document.getElementById('c13ops').textContent=state.c13;log(`HITL: ${hitlItems[i].id} â†’ ${dec}`,dec==='APPROVED'?'ok':dec==='REJECTED'?'err':'warn');
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // IA-CORE-1-4
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 const mitreData=[
   {id:'T1059',name:'Cmd Scripting',level:'high'},{id:'T1055',name:'Process Injection',level:'high'},
   {id:'T1027',name:'Obfuscation',level:'med'},{id:'T1071',name:'C2 Protocol',level:'high'},
@@ -2070,12 +2070,12 @@ async function runThreat(){
   const btn=document.getElementById('threatBtn');btn.disabled=true;btn.innerHTML='<span class="spin"></span>';
   document.getElementById('threatOut').textContent='ANALYZING THREAT...';
   try{
-    const r=await iaAsk(key,`You are IA-Core-1-4 — cyber threat intelligence analyst. Perform ${document.getElementById('threatMode').value}. Provide: Threat Score 0-100, actor attribution, MITRE techniques mapped, IOC classification, geographic origin, industry targeting, countermeasures.`,document.getElementById('threatInput').value.trim());
+    const r=await iaAsk(key,`You are IA-Core-1-4 â€” cyber threat intelligence analyst. Perform ${document.getElementById('threatMode').value}. Provide: Threat Score 0-100, actor attribution, MITRE techniques mapped, IOC classification, geographic origin, industry targeting, countermeasures.`,document.getElementById('threatInput').value.trim());
     document.getElementById('threatOut').textContent=r;
     const score=Math.floor(Math.random()*40+50);
     document.getElementById('tScore').textContent=score;document.getElementById('tIOC').textContent=document.getElementById('threatInput').value.split('\n').filter(Boolean).length;document.getElementById('tTTP').textContent=Math.floor(Math.random()*4+2);
     document.getElementById('tScoreBar').style.width=score+'%';
-    document.getElementById('tLevel').textContent=score>75?'HIGH — IMMEDIATE ACTION':score>50?'MEDIUM — MONITOR':'LOW';
+    document.getElementById('tLevel').textContent=score>75?'HIGH â€” IMMEDIATE ACTION':score>50?'MEDIUM â€” MONITOR':'LOW';
     document.getElementById('tLevel').style.color=score>75?'var(--red)':score>50?'var(--amber)':'var(--green)';
     state.threats++;state.queries++;state.c14++;document.getElementById('c14ops').textContent=state.c14;document.getElementById('topThreats').textContent=state.threats;document.getElementById('bThreats').textContent=state.threats;updateProtectionScore();log('THREAT ANALYSIS COMPLETE','err');
   }catch(e){document.getElementById('threatOut').textContent='ERROR: '+e.message;}
@@ -2098,9 +2098,9 @@ async function runIR(){
   btn.disabled=false;btn.textContent='GENERATE IR PLAN';
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // AI ANALYST
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 async function sendMain(){
   const key=apiKey();if(!key){alert('Enter IA Centinell key.');return;}
   const input=document.getElementById('mainInput').value.trim();if(!input)return;
@@ -2111,7 +2111,7 @@ async function sendMain(){
   document.getElementById('mainBtn').disabled=true;
   chatHistory.push({role:'user',content:input});
   try{
-    const r=await iaChat(key,`You are IA CENTINELL ANALYST — intelligence core of IA Centinell, operating as ${mode}. IA Centinell is a hybrid platform combining enterprise AI governance with active cybersecurity protection (threat shield, behavioral analysis, network monitoring, file integrity, quarantine, and AI intelligence). Expertise: digital forensics, SHA-256 audit, HITL governance, MITRE ATT&CK, threat attribution, maritime security (IMO 2021, BIMCO), malware analysis, antivirus strategies, incident response, compliance. Respond in ${lang==='es'?'Spanish':'English'}. Authoritative, technical, actionable.`,chatHistory);
+    const r=await iaChat(key,`You are IA CENTINELL ANALYST â€” intelligence core of IA Centinell, operating as ${mode}. IA Centinell is a hybrid platform combining enterprise AI governance with active cybersecurity protection (threat shield, behavioral analysis, network monitoring, file integrity, quarantine, and AI intelligence). Expertise: digital forensics, SHA-256 audit, HITL governance, MITRE ATT&CK, threat attribution, maritime security (IMO 2021, BIMCO), malware analysis, antivirus strategies, incident response, compliance. Respond in ${lang==='es'?'Spanish':'English'}. Authoritative, technical, actionable.`,chatHistory);
     thinking.remove();addMsg('ai',r);chatHistory.push({role:'assistant',content:r});
     if(chatHistory.length>20)chatHistory.splice(0,2);
     state.queries++;log(`AI ANALYST QUERY | MODE=${mode}`,'ok');
@@ -2127,22 +2127,22 @@ function addMsg(who,text,temp=false){
 function quickAsk(q){document.getElementById('mainInput').value=q;sendMain();}
 function clearChat(){document.getElementById('mainChat').innerHTML='';chatHistory.length=0;}
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // ALGO LAB
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 async function runAlgo(){
   const key=apiKey();if(!key){alert('Enter IA Centinell key.');return;}
   const btn=document.getElementById('algoBtn');btn.disabled=true;btn.innerHTML='<span class="spin"></span> COMPUTING...';
   document.getElementById('algoOut').textContent='ANALYZING PROBLEM...\n';document.getElementById('algoComplexity').textContent='';
   const domain=document.getElementById('algoDomain').value;const lang=document.getElementById('algoLang').value;const depth=document.getElementById('algoDepth').value;
   try{
-    const sys=`You are ALGO LAB — elite algorithm scientist inside IA Centinell. Solve at PhD/competitive programmer level. Domain: ${domain}. Mode: ${depth==='full'?'Full: problem analysis, approaches, optimal solution, time/space complexity, implementation in '+lang+', edge cases, test cases':'Mode: '+depth+'. Language: '+lang}. Be precise and complete.`;
+    const sys=`You are ALGO LAB â€” elite algorithm scientist inside IA Centinell. Solve at PhD/competitive programmer level. Domain: ${domain}. Mode: ${depth==='full'?'Full: problem analysis, approaches, optimal solution, time/space complexity, implementation in '+lang+', edge cases, test cases':'Mode: '+depth+'. Language: '+lang}. Be precise and complete.`;
     const r=await iaAsk(key,sys,document.getElementById('algoInput').value.trim());
     document.getElementById('algoOut').textContent=r;
     const m=r.match(/O\([^)]+\)/);if(m)document.getElementById('algoComplexity').textContent=m[0];
     state.queries++;log(`ALGO LAB: ${domain}`,'ok');
   }catch(e){document.getElementById('algoOut').textContent='ERROR: '+e.message;}
-  btn.disabled=false;btn.textContent='SOLVE — FULL ANALYSIS';
+  btn.disabled=false;btn.textContent='SOLVE â€” FULL ANALYSIS';
 }
 function algoQuick(q){document.getElementById('algoInput').value=q;runAlgo();}
 async function runDebate(){
@@ -2162,9 +2162,9 @@ async function runOptimize(){
   btn.disabled=false;btn.textContent='OPTIMIZE CODE';
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // MISSION CARDS
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 const missionProblems=[
   {id:'PROBLEM 01',title:'Lack of Digital Traceability',problem:['Fragmented logs','No cryptographic validation','Incomplete audits','Unverifiable records'],solution:['SHA-256 validation','UTC timestamped records','Operational audit trails','Integrity verification'],color:'var(--cyan)'},
   {id:'PROBLEM 02',title:'Lack of Human AI Oversight',problem:['Excessive automation','No human validation','Autonomous critical actions','No decision audit'],solution:['Human-in-the-Loop (HITL)','Decision validation layer','Ethical transparency','Supervised workflows'],color:'var(--green)'},
@@ -2180,15 +2180,15 @@ function buildMissionCards(){
     d.innerHTML=`<div style="font-family:var(--mono);font-size:0.45rem;color:var(--textdd);margin-bottom:2px;">${p.id}</div><div style="font-family:var(--orb);font-size:0.56rem;color:var(--text);letter-spacing:0.05em;">${p.title.toUpperCase()}</div>`;
     d.onmouseover=()=>d.style.background='var(--panel2)';d.onmouseout=()=>d.style.background='var(--panel)';
     d.onclick=()=>{
-      document.getElementById('missionDetail').innerHTML=`<div style="display:grid;grid-template-columns:1fr 1fr;gap:0.6rem;"><div><div style="font-family:var(--mono);font-size:0.45rem;color:var(--textdd);letter-spacing:0.1em;margin-bottom:0.3rem;">PROBLEMS ADDRESSED</div><ul style="list-style:none;">${p.problem.map(x=>`<li style="font-family:var(--raj);font-size:0.73rem;color:var(--textd);padding:1px 0;">› ${x}</li>`).join('')}</ul></div><div><div style="font-family:var(--mono);font-size:0.45rem;color:var(--textdd);letter-spacing:0.1em;margin-bottom:0.3rem;">IA CENTINELL SOLUTION</div><ul style="list-style:none;">${p.solution.map(x=>`<li style="font-family:var(--raj);font-size:0.73rem;color:${p.color};padding:1px 0;">✓ ${x}</li>`).join('')}</ul></div></div>`;
+      document.getElementById('missionDetail').innerHTML=`<div style="display:grid;grid-template-columns:1fr 1fr;gap:0.6rem;"><div><div style="font-family:var(--mono);font-size:0.45rem;color:var(--textdd);letter-spacing:0.1em;margin-bottom:0.3rem;">PROBLEMS ADDRESSED</div><ul style="list-style:none;">${p.problem.map(x=>`<li style="font-family:var(--raj);font-size:0.73rem;color:var(--textd);padding:1px 0;">â€º ${x}</li>`).join('')}</ul></div><div><div style="font-family:var(--mono);font-size:0.45rem;color:var(--textdd);letter-spacing:0.1em;margin-bottom:0.3rem;">IA CENTINELL SOLUTION</div><ul style="list-style:none;">${p.solution.map(x=>`<li style="font-family:var(--raj);font-size:0.73rem;color:${p.color};padding:1px 0;">âœ“ ${x}</li>`).join('')}</ul></div></div>`;
     };
     container.appendChild(d);
   });
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // CLIENT PANEL
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 function updateClientMetrics(){
   const total=CLIENTS_DB.length;
   const active=CLIENTS_DB.filter(c=>c.status==='ACTIVE').length;
@@ -2202,12 +2202,12 @@ function updateClientMetrics(){
 }
 function buildClientList(){
   const list=document.getElementById('clientList');if(!list)return;list.innerHTML='';
-  if(CLIENTS_DB.length===0){list.innerHTML='<div style="font-family:var(--mono);font-size:0.55rem;color:var(--textdd);padding:1rem;text-align:center;">NO CLIENTS REGISTERED — USE THE FORM TO ADD</div>';updateClientMetrics();return;}
+  if(CLIENTS_DB.length===0){list.innerHTML='<div style="font-family:var(--mono);font-size:0.55rem;color:var(--textdd);padding:1rem;text-align:center;">NO CLIENTS REGISTERED â€” USE THE FORM TO ADD</div>';updateClientMetrics();return;}
   const accentColors=['#5a9fbf','#4fa878','#c49a3d','#b85555','#8070aa'];
   CLIENTS_DB.forEach((c,i)=>{
     const ac=accentColors[i%accentColors.length];
     const d=document.createElement('div');d.style.cssText='display:flex;align-items:center;gap:0.7rem;padding:0.6rem 0.8rem;background:var(--panel);border:1px solid var(--border);margin-bottom:4px;cursor:pointer;transition:background 0.12s;';
-    d.innerHTML=`<div style="width:32px;height:32px;border-radius:50%;background:${ac}18;border:1px solid ${ac}40;display:flex;align-items:center;justify-content:center;font-family:var(--orb);font-size:0.58rem;color:${ac};flex-shrink:0;">${c.name[0]}</div><div style="flex:1;"><div style="font-family:var(--raj);font-size:0.82rem;font-weight:700;color:var(--text);">${c.name}</div><div style="font-family:var(--mono);font-size:0.45rem;color:var(--textdd);">${c.id} · ${c.type} · Since ${c.since}</div></div><span class="tag ${c.status==='ACTIVE'?'tag-green':'tag-amber'}" style="font-size:0.4rem;">${c.status}</span><span class="tag tag-cyan" style="font-size:0.4rem;">${c.ops} ops</span>`;
+    d.innerHTML=`<div style="width:32px;height:32px;border-radius:50%;background:${ac}18;border:1px solid ${ac}40;display:flex;align-items:center;justify-content:center;font-family:var(--orb);font-size:0.58rem;color:${ac};flex-shrink:0;">${c.name[0]}</div><div style="flex:1;"><div style="font-family:var(--raj);font-size:0.82rem;font-weight:700;color:var(--text);">${c.name}</div><div style="font-family:var(--mono);font-size:0.45rem;color:var(--textdd);">${c.id} Â· ${c.type} Â· Since ${c.since}</div></div><span class="tag ${c.status==='ACTIVE'?'tag-green':'tag-amber'}" style="font-size:0.4rem;">${c.status}</span><span class="tag tag-cyan" style="font-size:0.4rem;">${c.ops} ops</span>`;
     d.onmouseover=()=>d.style.background='var(--panel2)';d.onmouseout=()=>d.style.background='var(--panel)';
     d.onclick=()=>{document.getElementById('clientDetail').innerHTML=`<div style="display:grid;gap:0.35rem;"><div style="font-family:var(--orb);font-size:0.65rem;color:var(--text);">${c.name}</div><div style="display:flex;gap:0.35rem;"><span class="tag ${c.status==='ACTIVE'?'tag-green':'tag-amber'}">${c.status}</span><span class="tag tag-cyan">${c.type}</span><span class="tag tag-purple">${c.role}</span></div><table class="tbl"><tr><td style="font-size:0.48rem;color:var(--textdd);">Client ID</td><td style="font-size:0.52rem;">${c.id}</td></tr><tr><td style="font-size:0.48rem;color:var(--textdd);">Since</td><td style="font-size:0.52rem;">${c.since}</td></tr><tr><td style="font-size:0.48rem;color:var(--textdd);">Operations</td><td style="font-size:0.52rem;">${c.ops} recorded ops</td></tr></table></div>`;};
     list.appendChild(d);
@@ -2222,9 +2222,9 @@ function addClient(){
   buildClientList();document.getElementById('newClientName').value='';log(`CLIENT ADDED: ${name} [${type}]`,'ok');
 }
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // RADAR
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 function startRadar(){
   if(_radarRAF){cancelAnimationFrame(_radarRAF);_radarRAF=null;}
   const canvas=document.getElementById('radarCanvas');if(!canvas)return;
@@ -2252,13 +2252,13 @@ function startRadar(){
 }
 
 // INIT
-log('IA CENTINELL v6.0 INITIALIZED — INTELLIGENCE + PROTECTION','ok');
+log('IA CENTINELL v6.0 INITIALIZED â€” INTELLIGENCE + PROTECTION','ok');
 // Set signature DB date dynamically
 (function(){const el=document.getElementById('sigLastUpdate');if(el)el.textContent=new Date().toISOString().split('T')[0];})();
 
-    // ═══════════════════════════════════════════════════════════════
-    // INFRASTRUCTURE ENGINE v6.0 — DYNAMIC DATA & THREAT SIMULATION
-    // ═══════════════════════════════════════════════════════════════
+    // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+    // INFRASTRUCTURE ENGINE v6.0 â€” DYNAMIC DATA & THREAT SIMULATION
+    // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
     const THREAT_DB_LARGE = Array.from({length: 500}, (_, i) => ({
         id: `CVE-2026-${2000 + i}`,
@@ -2272,15 +2272,15 @@ log('IA CENTINELL v6.0 INITIALIZED — INTELLIGENCE + PROTECTION','ok');
         "Artifact":              "An object of digital interest found during an investigation.",
         "Chain of Custody":      "A roadmap that shows how evidence was handled.",
         "Entropy":               "A measure of randomness in a file; high entropy signals encryption or ransomware.",
-        "MFT":                   "Master File Table — NTFS structure tracking every file on a volume.",
+        "MFT":                   "Master File Table â€” NTFS structure tracking every file on a volume.",
         "Prefetch":              "Windows file that logs application execution data for forensic timeline use.",
         "Registry Hive":         "A binary file containing a portion of the Windows Registry database.",
         "LNK File":              "Windows shortcut that may reveal recently accessed files and paths.",
         "Shadow Copy":           "VSS snapshot of a volume used to recover deleted or modified files.",
         "Pagefile":              "Virtual memory swap file that may contain fragments of process memory.",
-        "Hibernation File":      "hiberfil.sys — contains a memory dump taken when the system hibernated.",
+        "Hibernation File":      "hiberfil.sys â€” contains a memory dump taken when the system hibernated.",
         "EVTX":                  "Windows Event Log binary format used to track system and security events.",
-        "Metadata":              "Data about data — timestamps, author, GPS, device ID embedded in files.",
+        "Metadata":              "Data about data â€” timestamps, author, GPS, device ID embedded in files.",
         "Steganography":         "Hiding data inside innocent-looking files such as images or audio.",
         "Timeline Analysis":     "Chronological ordering of file system and log events to reconstruct activity.",
         "Volatility":            "Open-source framework for extracting forensic artifacts from memory dumps.",
@@ -2289,7 +2289,7 @@ log('IA CENTINELL v6.0 INITIALIZED — INTELLIGENCE + PROTECTION','ok');
         "Rootkit":               "Malware designed to hide its presence at the OS or firmware level.",
         "Anti-Forensics":        "Techniques used to destroy, hide, or obfuscate digital evidence.",
         "Hash Collision":        "Two different inputs producing the same hash output; sign of integrity issues.",
-        "IOC":                   "Indicator of Compromise — artifact that suggests a system was breached.",
+        "IOC":                   "Indicator of Compromise â€” artifact that suggests a system was breached.",
         "TTPs":                  "Tactics, Techniques, and Procedures used by threat actors.",
         "Lateral Movement":      "Post-exploitation phase where an attacker moves through the network.",
         "Persistence":           "Mechanism used by malware to survive reboots or credential changes.",
@@ -2307,29 +2307,29 @@ log('IA CENTINELL v6.0 INITIALIZED — INTELLIGENCE + PROTECTION','ok');
         "YARA Rule":             "Pattern-matching tool used to identify and classify malware samples.",
         "Snort Rule":            "Network intrusion detection signature for matching malicious traffic.",
         "Sysmon":                "Windows system monitor that logs detailed process and network events.",
-        "EDR":                   "Endpoint Detection and Response — advanced threat detection on endpoints.",
-        "XDR":                   "Extended Detection and Response — cross-layer threat correlation.",
-        "SIEM":                  "Security Information and Event Management — log aggregation and alerting.",
+        "EDR":                   "Endpoint Detection and Response â€” advanced threat detection on endpoints.",
+        "XDR":                   "Extended Detection and Response â€” cross-layer threat correlation.",
+        "SIEM":                  "Security Information and Event Management â€” log aggregation and alerting.",
         "SOAR":                  "Security Orchestration, Automation and Response platform.",
         "Zero-Day":              "Vulnerability unknown to the vendor with no patch available.",
-        "CVE":                   "Common Vulnerabilities and Exposures — public vulnerability identifier.",
-        "CVSS":                  "Common Vulnerability Scoring System — severity rating 0 to 10.",
+        "CVE":                   "Common Vulnerabilities and Exposures â€” public vulnerability identifier.",
+        "CVSS":                  "Common Vulnerability Scoring System â€” severity rating 0 to 10.",
         "NVD":                   "National Vulnerability Database maintained by NIST.",
-        "CWE":                   "Common Weakness Enumeration — taxonomy of software security weaknesses.",
+        "CWE":                   "Common Weakness Enumeration â€” taxonomy of software security weaknesses.",
         "MITRE ATT&CK":          "Knowledge base of adversary tactics and techniques based on real incidents.",
         "Kill Chain":            "7-phase model describing the stages of a cyberattack.",
         "Diamond Model":         "Framework analyzing intrusions across adversary, capability, infrastructure, victim.",
         "Threat Intelligence":   "Contextualized information about current and emerging threats.",
-        "OSINT":                 "Open Source Intelligence — data gathered from publicly available sources.",
+        "OSINT":                 "Open Source Intelligence â€” data gathered from publicly available sources.",
         "Shodan":                "Search engine for internet-connected devices exposing open ports and banners.",
         "Pivoting":              "Using a compromised host as a launch point to attack other systems.",
         "Tunneling":             "Encapsulating malicious traffic inside allowed protocols like DNS or HTTPS.",
         "DNS Tunneling":         "Using DNS queries to exfiltrate data or communicate with C2.",
-        "DGA":                   "Domain Generation Algorithm — creates random domains to evade blocklists.",
+        "DGA":                   "Domain Generation Algorithm â€” creates random domains to evade blocklists.",
         "Fast Flux":             "Rapidly changing DNS records to hide C2 infrastructure.",
         "Typosquatting":         "Registering misspelled domain names to capture mistyped traffic.",
         "Spear Phishing":        "Targeted phishing attack crafted using personal information about the victim.",
-        "BEC":                   "Business Email Compromise — impersonating executives to authorize fraud.",
+        "BEC":                   "Business Email Compromise â€” impersonating executives to authorize fraud.",
         "Watering Hole":         "Compromising websites frequented by a specific target audience.",
         "Supply Chain Attack":   "Targeting less-secure vendors to compromise downstream customers.",
         "Firmware Attack":       "Malware implanted at the firmware level below the OS.",
@@ -2342,16 +2342,16 @@ log('IA CENTINELL v6.0 INITIALIZED — INTELLIGENCE + PROTECTION','ok');
         "Cryptojacking":         "Unauthorized use of victim resources to mine cryptocurrency.",
         "Keylogger":             "Malware that captures and records keystrokes on a compromised system.",
         "Formjacking":           "Injecting malicious code into web forms to steal user input.",
-        "SQLi":                  "SQL Injection — inserting malicious SQL into input fields.",
-        "XSS":                   "Cross-Site Scripting — injecting scripts into web pages viewed by others.",
-        "CSRF":                  "Cross-Site Request Forgery — tricking users into unintended actions.",
-        "SSRF":                  "Server-Side Request Forgery — forcing the server to make internal requests.",
-        "IDOR":                  "Insecure Direct Object Reference — accessing unauthorized resources via IDs.",
+        "SQLi":                  "SQL Injection â€” inserting malicious SQL into input fields.",
+        "XSS":                   "Cross-Site Scripting â€” injecting scripts into web pages viewed by others.",
+        "CSRF":                  "Cross-Site Request Forgery â€” tricking users into unintended actions.",
+        "SSRF":                  "Server-Side Request Forgery â€” forcing the server to make internal requests.",
+        "IDOR":                  "Insecure Direct Object Reference â€” accessing unauthorized resources via IDs.",
         "Path Traversal":        "Using ../ sequences to access files outside the intended directory.",
         "Command Injection":     "Injecting OS commands through vulnerable application input fields.",
-        "XXE":                   "XML External Entity injection — reading local files via XML parsers.",
+        "XXE":                   "XML External Entity injection â€” reading local files via XML parsers.",
         "Deserialization":       "Exploiting unsafe deserialization to execute arbitrary code.",
-        "RCE":                   "Remote Code Execution — executing arbitrary code on a target system.",
+        "RCE":                   "Remote Code Execution â€” executing arbitrary code on a target system.",
         "Privilege Escalation":  "Gaining higher permissions than originally granted.",
         "UAC Bypass":            "Circumventing Windows User Account Control to gain admin rights.",
         "Token Impersonation":   "Stealing a process token to run commands as another user.",
@@ -2371,7 +2371,7 @@ log('IA CENTINELL v6.0 INITIALIZED — INTELLIGENCE + PROTECTION','ok');
         "Hashcat":               "GPU-accelerated password recovery tool supporting 300+ hash types.",
         "Autopsy":               "Open-source digital forensics platform for analyzing disk images.",
         "Sleuth Kit":            "Collection of CLI tools for file system forensic analysis.",
-        "FTK":                   "Forensic Toolkit — commercial platform for digital evidence processing.",
+        "FTK":                   "Forensic Toolkit â€” commercial platform for digital evidence processing.",
         "EnCase":                "Commercial digital forensics platform widely used in law enforcement.",
         "Cellebrite":            "Mobile device forensics tool for extracting data from smartphones.",
         "Magnet AXIOM":          "Forensics platform for acquiring and analyzing digital evidence.",
@@ -2384,7 +2384,7 @@ log('IA CENTINELL v6.0 INITIALIZED — INTELLIGENCE + PROTECTION','ok');
         "FireEye Redline":       "Free host investigation tool for collecting and analyzing memory artifacts.",
         "CyberChef":             "Web-based tool for data encoding, decoding, and transformation.",
         "Velociraptor":          "Open-source endpoint monitoring and forensic collection platform.",
-        "GRR":                   "Google Rapid Response — remote incident response framework.",
+        "GRR":                   "Google Rapid Response â€” remote incident response framework.",
         "OSQuery":               "SQL-based endpoint visibility tool for querying OS state.",
         "OSSEC":                 "Open-source HIDS for log analysis, integrity checking, and alerting.",
         "Wazuh":                 "Open-source XDR and SIEM platform derived from OSSEC.",
@@ -2422,11 +2422,11 @@ log('IA CENTINELL v6.0 INITIALIZED — INTELLIGENCE + PROTECTION','ok');
         "Eradication":           "Removing the root cause and all attacker footholds from the environment.",
         "Recovery":              "Restoring systems to normal operation after an incident.",
         "Lessons Learned":       "Post-incident review to improve defenses and response procedures.",
-        "RTO":                   "Recovery Time Objective — maximum tolerable downtime after an incident.",
-        "RPO":                   "Recovery Point Objective — maximum acceptable data loss window.",
-        "BCP":                   "Business Continuity Plan — ensures critical operations during disruption.",
-        "DRP":                   "Disaster Recovery Plan — technical procedures for restoring IT systems.",
-        "NIST CSF":              "NIST Cybersecurity Framework — Identify, Protect, Detect, Respond, Recover.",
+        "RTO":                   "Recovery Time Objective â€” maximum tolerable downtime after an incident.",
+        "RPO":                   "Recovery Point Objective â€” maximum acceptable data loss window.",
+        "BCP":                   "Business Continuity Plan â€” ensures critical operations during disruption.",
+        "DRP":                   "Disaster Recovery Plan â€” technical procedures for restoring IT systems.",
+        "NIST CSF":              "NIST Cybersecurity Framework â€” Identify, Protect, Detect, Respond, Recover.",
         "ISO 27001":             "International standard for information security management systems.",
         "SOC 2":                 "AICPA trust services framework for SaaS security and availability.",
         "PCI DSS":               "Payment Card Industry Data Security Standard.",
@@ -2436,27 +2436,27 @@ log('IA CENTINELL v6.0 INITIALIZED — INTELLIGENCE + PROTECTION','ok');
         "FedRAMP":               "US federal cloud security authorization framework.",
         "Zero Trust":            "Security model requiring verification for every access request.",
         "Microsegmentation":     "Dividing the network into isolated zones to limit lateral movement.",
-        "SASE":                  "Secure Access Service Edge — cloud-delivered network security.",
-        "ZTNA":                  "Zero Trust Network Access — replaces VPN with identity-based access.",
-        "PAM":                   "Privileged Access Management — controlling high-risk account access.",
-        "IAM":                   "Identity and Access Management — managing user identities and permissions.",
-        "MFA":                   "Multi-Factor Authentication — requiring multiple identity proofs.",
-        "PKI":                   "Public Key Infrastructure — framework for managing digital certificates.",
-        "HSM":                   "Hardware Security Module — tamper-resistant device for key management.",
-        "TLS":                   "Transport Layer Security — cryptographic protocol securing communications.",
-        "mTLS":                  "Mutual TLS — both parties authenticate with certificates.",
-        "JWT":                   "JSON Web Token — compact, self-contained token for identity claims.",
+        "SASE":                  "Secure Access Service Edge â€” cloud-delivered network security.",
+        "ZTNA":                  "Zero Trust Network Access â€” replaces VPN with identity-based access.",
+        "PAM":                   "Privileged Access Management â€” controlling high-risk account access.",
+        "IAM":                   "Identity and Access Management â€” managing user identities and permissions.",
+        "MFA":                   "Multi-Factor Authentication â€” requiring multiple identity proofs.",
+        "PKI":                   "Public Key Infrastructure â€” framework for managing digital certificates.",
+        "HSM":                   "Hardware Security Module â€” tamper-resistant device for key management.",
+        "TLS":                   "Transport Layer Security â€” cryptographic protocol securing communications.",
+        "mTLS":                  "Mutual TLS â€” both parties authenticate with certificates.",
+        "JWT":                   "JSON Web Token â€” compact, self-contained token for identity claims.",
         "OAuth 2.0":             "Authorization framework for delegating access without sharing credentials.",
         "SAML":                  "Security Assertion Markup Language for SSO federation.",
         "FIDO2":                 "Passwordless authentication standard using hardware authenticators.",
-        "UEBA":                  "User and Entity Behavior Analytics — detecting anomalous activity.",
-        "NTA":                   "Network Traffic Analysis — inspecting flows to detect threats.",
-        "DLP":                   "Data Loss Prevention — preventing unauthorized data exfiltration.",
-        "CASB":                  "Cloud Access Security Broker — controlling cloud application usage.",
-        "WAF":                   "Web Application Firewall — filtering malicious HTTP traffic.",
-        "IDS":                   "Intrusion Detection System — passively monitoring for attack signatures.",
-        "IPS":                   "Intrusion Prevention System — actively blocking detected attacks.",
-        "NGFW":                  "Next-Generation Firewall — combining traditional firewall with deep inspection.",
+        "UEBA":                  "User and Entity Behavior Analytics â€” detecting anomalous activity.",
+        "NTA":                   "Network Traffic Analysis â€” inspecting flows to detect threats.",
+        "DLP":                   "Data Loss Prevention â€” preventing unauthorized data exfiltration.",
+        "CASB":                  "Cloud Access Security Broker â€” controlling cloud application usage.",
+        "WAF":                   "Web Application Firewall â€” filtering malicious HTTP traffic.",
+        "IDS":                   "Intrusion Detection System â€” passively monitoring for attack signatures.",
+        "IPS":                   "Intrusion Prevention System â€” actively blocking detected attacks.",
+        "NGFW":                  "Next-Generation Firewall â€” combining traditional firewall with deep inspection.",
         "Honeypot":              "Decoy system designed to lure and observe attacker activity.",
         "Deception Technology":  "Deploying fake assets throughout the environment to detect intruders.",
         "Threat Modeling":       "Process of identifying and prioritizing potential attack vectors.",
@@ -2467,13 +2467,13 @@ log('IA CENTINELL v6.0 INITIALIZED — INTELLIGENCE + PROTECTION','ok');
         "Defense in Depth":      "Layered security strategy using multiple independent controls.",
         "Security by Design":    "Integrating security into systems from the initial design phase.",
         "DevSecOps":             "Integrating security practices into CI/CD pipelines.",
-        "SBOM":                  "Software Bill of Materials — inventory of all software components.",
-        "SAST":                  "Static Application Security Testing — analyzing source code for flaws.",
-        "DAST":                  "Dynamic Application Security Testing — testing running applications.",
+        "SBOM":                  "Software Bill of Materials â€” inventory of all software components.",
+        "SAST":                  "Static Application Security Testing â€” analyzing source code for flaws.",
+        "DAST":                  "Dynamic Application Security Testing â€” testing running applications.",
         "Fuzzing":               "Automated testing using random/malformed inputs to find vulnerabilities.",
         "Pentest":               "Authorized simulated attack to identify and validate vulnerabilities.",
         "Bug Bounty":            "Program rewarding external researchers for reporting security flaws.",
-        "EPSS":                  "Exploit Prediction Scoring System — probability of exploitation in 30 days.",
+        "EPSS":                  "Exploit Prediction Scoring System â€” probability of exploitation in 30 days.",
         "Risk Acceptance":       "Formal decision to tolerate a known vulnerability without remediation.",
         "Security Posture":      "Overall strength of an organization cybersecurity defenses.",
         "Crown Jewels":          "The most critical assets whose compromise would cause catastrophic damage."
@@ -2595,11 +2595,11 @@ log('IA CENTINELL v6.0 INITIALIZED — INTELLIGENCE + PROTECTION','ok');
     if(!box || box.children.length) return;
     const items = [
       ['IOC','Indicadores de compromiso observables en un sistema.'],
-      ['Entropy','Medida de aleatoriedad útil para detectar cifrado o empaquetado.'],
-      ['Prefetch','Rastros de ejecución de programas en Windows.'],
-      ['Write Blocker','Dispositivo para evitar alteración de evidencia.'],
-      ['Timeline','Reconstrucción cronológica de eventos forenses.'],
-      ['Exfiltración','Salida no autorizada de datos sensibles.']
+      ['Entropy','Medida de aleatoriedad Ãºtil para detectar cifrado o empaquetado.'],
+      ['Prefetch','Rastros de ejecuciÃ³n de programas en Windows.'],
+      ['Write Blocker','Dispositivo para evitar alteraciÃ³n de evidencia.'],
+      ['Timeline','ReconstrucciÃ³n cronolÃ³gica de eventos forenses.'],
+      ['ExfiltraciÃ³n','Salida no autorizada de datos sensibles.']
     ];
     items.forEach(function(item){
       const div = document.createElement('div');
