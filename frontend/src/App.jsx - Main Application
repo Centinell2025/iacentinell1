@@ -1,0 +1,63 @@
+import { useEffect, useState } from 'react'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import { useAuthStore } from './store/authStore'
+import { useTheme } from './hooks/useTheme'
+
+// Pages
+import LoginPage from './pages/LoginPage'
+import DashboardPage from './pages/DashboardPage'
+import ShieldPage from './pages/ShieldPage'
+import AnalyticsPage from './pages/AnalyticsPage'
+import BillingPage from './pages/BillingPage'
+import SettingsPage from './pages/SettingsPage'
+
+// Components
+import Layout from './components/Layout'
+import ProtectedRoute from './components/ProtectedRoute'
+import SplashScreen from './components/SplashScreen'
+
+function App() {
+  const { token, initializeAuth } = useAuthStore()
+  const { theme, toggleTheme } = useTheme()
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const initialize = async () => {
+      await initializeAuth()
+      setLoading(false)
+    }
+    initialize()
+  }, [])
+
+  if (loading) {
+    return <SplashScreen />
+  }
+
+  return (
+    <Router>
+      <div className={theme === 'dark' ? 'dark' : ''}>
+        <Routes>
+          {/* Public Routes */}
+          <Route path="/login" element={token ? <Navigate to="/" /> : <LoginPage />} />
+          <Route path="/register" element={token ? <Navigate to="/" /> : <RegisterPage />} />
+
+          {/* Protected Routes */}
+          <Route
+            element={token ? <Layout /> : <Navigate to="/login" />}
+          >
+            <Route path="/" element={<DashboardPage />} />
+            <Route path="/shield" element={<ShieldPage />} />
+            <Route path="/analytics" element={<AnalyticsPage />} />
+            <Route path="/billing" element={<BillingPage />} />
+            <Route path="/settings" element={<SettingsPage />} />
+          </Route>
+
+          {/* 404 */}
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+      </div>
+    </Router>
+  )
+}
+
+export default App
