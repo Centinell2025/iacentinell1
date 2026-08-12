@@ -44,3 +44,5 @@ docker-compose up -d
 # Frontend: http://localhost:3000
 # API: http://localhost:8000
 # Documentación: http://localhost:8000/api/docs
+📝 LICENSE
+Proprietary - Beacon of the Eagle LLC
