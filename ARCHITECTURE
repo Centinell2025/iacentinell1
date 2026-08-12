@@ -1,0 +1,16 @@
+┌─────────────────┐
+│   Frontend      │
+│  (React/Vue)    │
+└────────┬────────┘
+         │ HTTPS
+    ┌────▼────────────────┐
+    │   FastAPI Backend   │
+    │   - Authentication  │
+    │   - File Scanning   │
+    │   - AI Integration  │
+    └────┬──────────┬─────┘
+         │          │
+    ┌────▼──┐  ┌────▼──┐
+    │PostgreSQL    Anthropic
+    │Database│    API
+    └────────┘  └────────┘
