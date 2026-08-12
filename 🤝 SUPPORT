@@ -1,0 +1,25 @@
+
+---
+
+## 📋 PASOS PARA IMPLEMENTAR
+
+```bash
+# 1. Setup inicial
+mkdir ia-centinell && cd ia-centinell
+git clone [repo]
+
+# 2. Instalar dependencias
+pip install -r backend/requirements.txt
+npm install  # si usas frontend con React
+
+# 3. Configurar .env
+cp .env.example .env
+# Editar con tus credenciales
+
+# 4. Iniciar con Docker
+docker-compose up -d
+
+# 5. Acceder
+# Frontend: http://localhost:3000
+# API: http://localhost:8000
+# Docs: http://localhost:8000/docs
