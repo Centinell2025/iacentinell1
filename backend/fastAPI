@@ -1,0 +1,21 @@
+# backend/app/routes/analytics.py
+from sqlalchemy.orm import selectinload
+from fastapi import BackgroundTasks
+
+@router.get("/threats")
+async def get_threats(db: Session):
+    # ✅ Evitar N+1 queries
+    threats = db.query(Threat)\
+        .options(selectinload(Threat.metadata))\
+        .order_by(Threat.created_at.desc())\
+        .limit(100)\
+        .all()
+    
+    return threats
+
+# ✅ Procesar datos pesados en background
+@router.post("/scan")
+async def scan(payload: dict, background_tasks: BackgroundTasks):
+    scan_id = str(uuid4())
+    background_tasks.add_task(analyze_threat, scan_id, payload)
+    return {"scan_id": scan_id, "status": "processing"}
