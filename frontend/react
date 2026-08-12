@@ -1,0 +1,20 @@
+// frontend/src/components/Dashboard.jsx
+import { memo, useMemo } from 'react';
+
+// ✅ Evitar re-renders innecesarios
+export const Dashboard = memo(function Dashboard() {
+  const { threats, metrics } = useDashboardStore();
+  
+  // ✅ Memoizar cálculos costosos
+  const sortedThreats = useMemo(
+    () => threats.sort((a, b) => b.severity - a.severity),
+    [threats]
+  );
+
+  return (
+    <div>
+      {/* Renderizar solo los elementos visibles */}
+      <VirtualizedList items={sortedThreats} />
+    </div>
+  );
+});
